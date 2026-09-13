@@ -194,8 +194,9 @@ When the Udon Go AI Go-table Prefab is used **intact and unmodified** in a VRCha
 
 If the Prefab or any of its code, shaders, assets, or runtime logic is modified, this exception no longer applies, and the resulting use must comply with the normal terms of AGPL-3.0-only.
 
-This exception applies only to original Udon Go AI material that cocokoishi is authorized to license.
+In that case, the modified version of Udon Go AI must be made available in source form under AGPL-3.0-only. Any other part of the VRChat world that, together with the modified Udon Go AI, constitutes a single combined work or otherwise falls within the scope of AGPL-3.0-only must also be made available under the terms required by AGPL-3.0-only.
 
+This exception applies only to original Udon Go AI material that cocokoishi is authorized to license.
 
 ## License
 
