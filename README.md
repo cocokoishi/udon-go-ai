@@ -8,7 +8,33 @@ Udon Go AI is an open-source 19×19 Go world for VRChat, built with Unity, UdonS
 
 License: **GNU Affero General Public License v3.0 only** (`AGPL-3.0-only`). Copyright © 2026 cocokoishi for original Udon Go AI material. See [`LICENSE`](LICENSE) and [`Docs/THIRD_PARTY_NOTICES.md`](Docs/THIRD_PARTY_NOTICES.md).
 
-> This repository is a Unity package/source distribution, not a complete Unity project. A compatible VRChat Worlds project is required; the repository does not include `ProjectSettings/`, `Packages/`, or a checked-in production scene.
+> This repository is a Unity package/source distribution, not a complete Unity project. A compatible VRChat Worlds project is required; Just clone this repo into Assets/.
+
+## Getting started
+
+1. Create or open a VRChat Worlds Unity project using Unity `2022.3.22f1`.
+2. Install the VRChat Worlds SDK, UdonSharp, and TextMeshPro Essential Resources.
+3. Clone this repo into Assets/
+4. Run the generator via:
+
+`Tools > Pure Udon Go > Generate Final Production Scene`
+
+5. Open the generated scene, add it to the host project's build scenes, and test/build it through the normal VRChat SDK workflow.
+
+The generator creates:
+
+```text
+Assets/PureUdonGo/Generated/Scenes/PureUdonGoProduction.unity
+Assets/PureUdonGo/Generated/Materials/
+Assets/PureUdonGo/Generated/Textures/
+Assets/PureUdonGo/Generated/Audio/
+Assets/PureUdonGo/Generated/GoGenerationReport.txt
+```
+
+Generation is idempotent. Regenerate after changing the serialized runtime or generator schema instead of manually patching an older generated scene.
+
+The default generated room has three visible tables and starts in PvAI mode with White controlled by the AI. The production board uses one world-space UGUI receiver with 361 transparent targets and one UIShape trigger collider; stones and the board pedestal do not create solid interaction colliders.
+
 
 ## Features
 
@@ -89,37 +115,6 @@ The detailed engineering notes are indexed in [`Docs/README.md`](Docs/README.md)
 * Python 3.12 for the independent tests and conversion/reference tools.
 * NumPy for the CPU neural reference and selected comparison tools.
 * An authorized local KataGo/KaTrain installation for external oracle or strength comparisons. It is not a runtime dependency of the world.
-
-## Getting started
-
-1. Create or open a VRChat Worlds Unity project using Unity `2022.3.22f1`.
-2. Install the VRChat Worlds SDK, UdonSharp, and TextMeshPro Essential Resources.
-3. Copy `Assets/PureUdonGo/` into the host project's `Assets/` directory, preserving all `.meta` files.
-4. Let Unity finish importing the scripts, serialized Udon programs, shader, font, and model assets.
-5. Run the generator from:
-
-`Tools > Pure Udon Go > Generate Final Production Scene`
-
-6. Run the validator from:
-
-`Tools > Pure Udon Go > Validate Production Scene`
-
-7. Run `Tools > Pure Udon Go > Verify Real UdonSharp Compile` and resolve all errors before building.
-8. Open the generated scene, add it to the host project's build scenes, and test/build it through the normal VRChat SDK workflow.
-
-The generator creates:
-
-```text
-Assets/PureUdonGo/Generated/Scenes/PureUdonGoProduction.unity
-Assets/PureUdonGo/Generated/Materials/
-Assets/PureUdonGo/Generated/Textures/
-Assets/PureUdonGo/Generated/Audio/
-Assets/PureUdonGo/Generated/GoGenerationReport.txt
-```
-
-Generation is idempotent. Regenerate after changing the serialized runtime or generator schema instead of manually patching an older generated scene.
-
-The default generated room has three visible tables and starts in PvAI mode with White controlled by the AI. The production board uses one world-space UGUI receiver with 361 transparent targets and one UIShape trigger collider; stones and the board pedestal do not create solid interaction colliders.
 
 ## Built-in AI profiles
 
