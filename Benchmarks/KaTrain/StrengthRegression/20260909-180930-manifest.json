@@ -1,0 +1,133 @@
+{
+  "schema": "pure-udon-go.strength-regression-oracle.v1",
+  "generatedLocal": "2026-09-09T18:09:47.2453175+08:00",
+  "model": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Assets\\udon-go-ai\\.KataGO\\g170e-b10c128-s1141046784-d204142634.bin.gz",
+  "modelSha256": "1a8e05a4ea3fca20dab79410cbb566c760767fcdd2fa0b701cfe259a84cc8b04",
+  "executable": "E:\\UnityPRJS\\ShaderGPT_neoversion\\KaTrain\\_internal\\katrain\\KataGo\\katago.exe",
+  "executableSha256": "0e6cc918840e6ef67c0b4a21109585306df7aaa3772971574e58deb8e8fc0575",
+  "config": "E:\\UnityPRJS\\ShaderGPT_neoversion\\KaTrain\\_internal\\katrain\\KataGo\\analysis_config.cfg",
+  "configSha256": "faf458dd0bd7923db48c1043af88f6cdfb938ebaf5950b116a82ca2cd4dc80c5",
+  "rules": "tromp-taylor",
+  "komi": 7.5,
+  "deterministic": true,
+  "budgets": [
+    4,
+    32,
+    100,
+    200
+  ],
+  "referenceVisits": 1000,
+  "positions": {
+    "opening": [
+      [
+        "B",
+        "D16"
+      ],
+      [
+        "W",
+        "Q4"
+      ]
+    ],
+    "capture": [
+      [
+        "B",
+        "B19"
+      ],
+      [
+        "W",
+        "A19"
+      ],
+      [
+        "B",
+        "A18"
+      ]
+    ],
+    "fight": [
+      [
+        "B",
+        "K10"
+      ],
+      [
+        "W",
+        "L10"
+      ],
+      [
+        "B",
+        "K11"
+      ],
+      [
+        "W",
+        "K9"
+      ],
+      [
+        "B",
+        "J10"
+      ],
+      [
+        "W",
+        "M9"
+      ],
+      [
+        "B",
+        "J11"
+      ],
+      [
+        "W",
+        "M8"
+      ]
+    ],
+    "mixed": [
+      [
+        "B",
+        "D16"
+      ],
+      [
+        "W",
+        "Q4"
+      ],
+      [
+        "B",
+        "C17"
+      ],
+      [
+        "W",
+        "R3"
+      ],
+      [
+        "B",
+        "E16"
+      ],
+      [
+        "W",
+        "P4"
+      ],
+      [
+        "B",
+        "C16"
+      ],
+      [
+        "W",
+        "R4"
+      ],
+      [
+        "B",
+        "F16"
+      ],
+      [
+        "W",
+        "O4"
+      ],
+      [
+        "B",
+        "B16"
+      ]
+    ]
+  },
+  "sameBudgetJsonl": "20260909-180930-same-budget.jsonl",
+  "referenceJsonl": "20260909-180930-reference-1000.jsonl",
+  "interpretation": [
+    "Same-budget rows compare deterministic Udon observations with the same-model KataGo analysis at the matching visit target.",
+    "Reference rows rank the Udon move against a higher-visit same-model KataGo teacher and are a regression screen, not an Elo estimate.",
+    "No-Catastrophic-Signal requires every selected move to appear in the reference candidate list, at least 75 percent in the top ten, and max winrate regret no greater than 0.15."
+  ]
+}

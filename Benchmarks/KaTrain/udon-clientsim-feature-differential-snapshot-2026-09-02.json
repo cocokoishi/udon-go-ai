@@ -1,0 +1,91 @@
+{
+  "caseCount": 7,
+  "failureCount": 0,
+  "fixture": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\PureUdonGoClientSimPostRecovery\\go-udon-feature-fixtures.json",
+  "globalFloatsPerCase": 19,
+  "oracleManifest": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\FeatureOracle\\2026-09-02-snapshot\\manifest.json",
+  "result": "PASS",
+  "rows": [
+    {
+      "firstGlobalDifference": null,
+      "firstSpatialDifference": null,
+      "globalDifferent": 0,
+      "globalMaxAbs": 0.0,
+      "moveCount": 0,
+      "name": "empty-tromp",
+      "rules": "Tromp-Taylor",
+      "spatialDifferent": 0,
+      "spatialMaxAbs": 0.0
+    },
+    {
+      "firstGlobalDifference": null,
+      "firstSpatialDifference": null,
+      "globalDifferent": 0,
+      "globalMaxAbs": 0.0,
+      "moveCount": 7,
+      "name": "opening-7-tromp",
+      "rules": "Tromp-Taylor",
+      "spatialDifferent": 0,
+      "spatialMaxAbs": 0.0
+    },
+    {
+      "firstGlobalDifference": null,
+      "firstSpatialDifference": null,
+      "globalDifferent": 0,
+      "globalMaxAbs": 0.0,
+      "moveCount": 15,
+      "name": "fight-15-tromp",
+      "rules": "Tromp-Taylor",
+      "spatialDifferent": 0,
+      "spatialMaxAbs": 0.0
+    },
+    {
+      "firstGlobalDifference": null,
+      "firstSpatialDifference": null,
+      "globalDifferent": 0,
+      "globalMaxAbs": 0.0,
+      "moveCount": 19,
+      "name": "ladder-19-tromp",
+      "rules": "Tromp-Taylor",
+      "spatialDifferent": 0,
+      "spatialMaxAbs": 0.0
+    },
+    {
+      "firstGlobalDifference": null,
+      "firstSpatialDifference": null,
+      "globalDifferent": 0,
+      "globalMaxAbs": 0.0,
+      "moveCount": 9,
+      "name": "capture-9-tromp",
+      "rules": "Tromp-Taylor",
+      "spatialDifferent": 0,
+      "spatialMaxAbs": 0.0
+    },
+    {
+      "firstGlobalDifference": null,
+      "firstSpatialDifference": null,
+      "globalDifferent": 0,
+      "globalMaxAbs": 0.0,
+      "moveCount": 2,
+      "name": "pass-history-tromp",
+      "rules": "Tromp-Taylor",
+      "spatialDifferent": 0,
+      "spatialMaxAbs": 0.0
+    },
+    {
+      "firstGlobalDifference": null,
+      "firstSpatialDifference": null,
+      "globalDifferent": 0,
+      "globalMaxAbs": 0.0,
+      "moveCount": 2,
+      "name": "double-pass-tromp",
+      "rules": "Tromp-Taylor",
+      "spatialDifferent": 0,
+      "spatialMaxAbs": 0.0
+    }
+  ],
+  "schema": "pure-udon-go.katago-feature-differential.v1",
+  "spatialFloatsPerCase": 7942,
+  "status": "EQUIVALENCE_VERIFIED",
+  "tolerance": 1e-06
+}

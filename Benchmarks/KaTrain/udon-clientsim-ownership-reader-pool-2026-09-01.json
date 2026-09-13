@@ -1,0 +1,25 @@
+{
+  "schema": "pure-udon-go.clientsim-ownership-reader-pool.v1",
+  "status": "PASS",
+  "date": "2026-09-01",
+  "unity": "2022.3.22f1",
+  "graphicsApi": "Direct3D 11",
+  "scene": "Assets/PureUdonGo/Generated/Scenes/PureUdonGoProduction.unity",
+  "log": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260901-ownership-d3d11-reader-pool-v3.log",
+  "checks": {
+    "pendingReadbackStarted": true,
+    "remoteOwnerTransfer": true,
+    "oldOwnerMoveCommit": false,
+    "oldSearchCancelled": true,
+    "ownerLifecycleInvalidated": true,
+    "activeReaderRotated": true,
+    "alternateReaderReturnedToLocalOwner": true,
+    "freshSearchVisits": 32,
+    "freshAiMoves": 1,
+    "freshReaderStages": 4
+  },
+  "limitations": [
+    "ClientSim uses one Udon VM and a simulated remote player.",
+    "Independent VRChat-client transport and remote snapshot delivery are not established by this report."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "pure-udon-go.professional-endgame-oracle.v1",
+  "generatedLocal": "2026-09-12T15:08:25.2371771+08:00",
+  "sourceCorpusManifest": "professional-endgames.json",
+  "sourceCorpusManifestSha256": "498dde592a85c9023c55897a9cda098b249f86696d48840b60d632259dc10f77",
+  "model": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Assets\\udon-go-ai\\.KataGO\\g170e-b10c128-s1141046784-d204142634.bin.gz",
+  "modelSha256": "1a8e05a4ea3fca20dab79410cbb566c760767fcdd2fa0b701cfe259a84cc8b04",
+  "executable": "E:\\UnityPRJS\\ShaderGPT_neoversion\\KaTrain\\_internal\\katrain\\KataGo\\katago.exe",
+  "executableSha256": "0e6cc918840e6ef67c0b4a21109585306df7aaa3772971574e58deb8e8fc0575",
+  "config": "E:\\UnityPRJS\\ShaderGPT_neoversion\\KaTrain\\_internal\\katrain\\KataGo\\analysis_config.cfg",
+  "configSha256": "faf458dd0bd7923db48c1043af88f6cdfb938ebaf5950b116a82ca2cd4dc80c5",
+  "rules": "tromp-taylor",
+  "komi": 7.5,
+  "deterministic": true,
+  "budgets": [
+    8,
+    48
+  ],
+  "referenceVisits": 1000,
+  "positionCount": 32,
+  "sameBudgetJsonl": "20260912-150734-professional-endgame-same-budget.jsonl",
+  "referenceJsonl": "20260912-150734-professional-endgame-reference-1000.jsonl",
+  "interpretation": [
+    "Same-budget rows compare real Udon observations with the same-model KataGo response at equal visits.",
+    "Reference rows are a high-visit move-quality screen; they are not an Elo or complete-game strength estimate.",
+    "The source corpus manifest keeps all online SGF attribution and hashes separate from this oracle output."
+  ]
+}

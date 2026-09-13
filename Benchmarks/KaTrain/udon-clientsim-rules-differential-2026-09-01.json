@@ -1,0 +1,5336 @@
+{
+  "acceptedMoves": 160,
+  "failures": [],
+  "final": {
+    "finalBlackCaptures": {
+      "expected": 4,
+      "observed": 4,
+      "status": "PASS"
+    },
+    "finalConsecutivePasses": {
+      "expected": 0,
+      "observed": 0,
+      "status": "PASS"
+    },
+    "finalGameState": {
+      "expected": 0,
+      "observed": 0,
+      "status": "PASS"
+    },
+    "finalKoLoc": {
+      "expected": -2,
+      "observed": -2,
+      "status": "PASS"
+    },
+    "finalMoveCount": {
+      "expected": 160,
+      "observed": 160,
+      "status": "PASS"
+    },
+    "finalPositionHistoryCount": {
+      "expected": 161,
+      "observed": 161,
+      "status": "PASS"
+    },
+    "finalSideToMove": {
+      "expected": 1,
+      "observed": 1,
+      "status": "PASS"
+    },
+    "finalWhiteCaptures": {
+      "expected": 4,
+      "observed": 4,
+      "status": "PASS"
+    }
+  },
+  "moveCount": 160,
+  "rowCount": 160,
+  "rowFailures": 0,
+  "rows": [
+    {
+      "accepted": true,
+      "index": 0,
+      "location": 60,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 1,
+      "location": 300,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 2,
+      "location": 72,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 3,
+      "location": 288,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 4,
+      "location": 40,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 5,
+      "location": 320,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 6,
+      "location": 54,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 7,
+      "location": 59,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 8,
+      "location": 61,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 9,
+      "location": 299,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 10,
+      "location": 91,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 11,
+      "location": 269,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 12,
+      "location": 43,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 13,
+      "location": 317,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 14,
+      "location": 111,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 15,
+      "location": 235,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 16,
+      "location": 148,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 17,
+      "location": 119,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 18,
+      "location": 354,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 19,
+      "location": 7,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 20,
+      "location": 79,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 21,
+      "location": 173,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 22,
+      "location": 181,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 23,
+      "location": 197,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 24,
+      "location": 223,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 25,
+      "location": 105,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 26,
+      "location": 90,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 27,
+      "location": 208,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 28,
+      "location": 175,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 29,
+      "location": 2,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 30,
+      "location": 115,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 31,
+      "location": 65,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 32,
+      "location": 304,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 33,
+      "location": 164,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 34,
+      "location": 36,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 35,
+      "location": 254,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 36,
+      "location": 152,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 37,
+      "location": 53,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 38,
+      "location": 129,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 39,
+      "location": 338,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 40,
+      "location": 117,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 41,
+      "location": 76,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 42,
+      "location": 312,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 43,
+      "location": 201,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 44,
+      "location": 167,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 45,
+      "location": 240,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 46,
+      "location": 191,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 47,
+      "location": 337,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 48,
+      "location": 135,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 49,
+      "location": 67,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 50,
+      "location": -1,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 51,
+      "location": 74,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 52,
+      "location": 262,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 53,
+      "location": 276,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 54,
+      "location": 114,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 55,
+      "location": 315,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 56,
+      "location": 17,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 57,
+      "location": 44,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 58,
+      "location": 37,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 59,
+      "location": 270,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 60,
+      "location": 333,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 61,
+      "location": 16,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 62,
+      "location": 274,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 63,
+      "location": 62,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 64,
+      "location": 3,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 65,
+      "location": 318,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 66,
+      "location": 243,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 67,
+      "location": 204,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 68,
+      "location": 136,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 69,
+      "location": 131,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 70,
+      "location": 190,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 71,
+      "location": 149,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 72,
+      "location": 237,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 73,
+      "location": 143,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 74,
+      "location": 87,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 75,
+      "location": 134,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 76,
+      "location": 196,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 77,
+      "location": 71,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 78,
+      "location": 293,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 79,
+      "location": 278,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 80,
+      "location": 125,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 81,
+      "location": 69,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 82,
+      "location": 47,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 83,
+      "location": 242,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 84,
+      "location": 29,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 85,
+      "location": 42,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 86,
+      "location": 228,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 87,
+      "location": 279,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 88,
+      "location": 108,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 89,
+      "location": 33,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 90,
+      "location": 216,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 91,
+      "location": 218,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 92,
+      "location": 6,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 93,
+      "location": 339,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 94,
+      "location": -1,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 95,
+      "location": 277,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 96,
+      "location": 324,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 97,
+      "location": 257,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 98,
+      "location": 230,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 99,
+      "location": 24,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 100,
+      "location": 100,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 101,
+      "location": 153,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 102,
+      "location": 336,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 103,
+      "location": 210,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 104,
+      "location": 101,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 105,
+      "location": 249,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 106,
+      "location": 170,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 107,
+      "location": 305,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 108,
+      "location": 310,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 109,
+      "location": 80,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 110,
+      "location": 99,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 111,
+      "location": 326,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 112,
+      "location": 217,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 113,
+      "location": 144,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 114,
+      "location": 81,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 115,
+      "location": 195,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 116,
+      "location": 241,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 117,
+      "location": 22,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 118,
+      "location": 261,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 119,
+      "location": 158,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 120,
+      "location": 49,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 121,
+      "location": 1,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 122,
+      "location": 275,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 123,
+      "location": 226,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 124,
+      "location": 244,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 125,
+      "location": 86,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 126,
+      "location": 316,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 127,
+      "location": 325,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 128,
+      "location": 107,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 129,
+      "location": 301,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 130,
+      "location": 247,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 131,
+      "location": 98,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 132,
+      "location": 0,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 133,
+      "location": 329,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 134,
+      "location": 172,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 135,
+      "location": 19,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 136,
+      "location": 342,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 137,
+      "location": 214,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 138,
+      "location": -1,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 139,
+      "location": 185,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 140,
+      "location": 307,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 141,
+      "location": 189,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 142,
+      "location": 97,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 143,
+      "location": 13,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 144,
+      "location": 349,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 145,
+      "location": 48,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 146,
+      "location": 106,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 147,
+      "location": 4,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 148,
+      "location": 199,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 149,
+      "location": 84,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 150,
+      "location": 347,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 151,
+      "location": 166,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 152,
+      "location": 295,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 153,
+      "location": 133,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 154,
+      "location": 219,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 155,
+      "location": 130,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 156,
+      "location": 255,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 157,
+      "location": 171,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 158,
+      "location": 357,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    },
+    {
+      "accepted": true,
+      "index": 159,
+      "location": 121,
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard1",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "previousBoard2",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ],
+      "vectorsPass": true
+    }
+  ],
+  "rules": "Tromp-Taylor positional-superko area komi-7.5 multi-stone-suicide",
+  "schema": "pure-udon-go.clientsim-rules-differential.v1",
+  "scope": "full board and two-history-plane transition comparison against independent Python reference; no neural or strength claim",
+  "status": "PASS",
+  "traceStatus": "CLIENTSIM_RULES_TRACE_PASS"
+}

@@ -1,0 +1,4 @@
+{"id":"udon-opening","moves":[["B","D16"],["W","Q4"]],"rules":"Chinese","komi":7.5,"boardXSize":19,"boardYSize":19,"includeOwnership":true,"includePolicy":true,"maxVisits":1000}
+{"id":"udon-capture","moves":[["B","B19"],["W","A19"],["B","A18"]],"rules":"Chinese","komi":7.5,"boardXSize":19,"boardYSize":19,"includeOwnership":true,"includePolicy":true,"maxVisits":1000}
+{"id":"udon-fight","moves":[["B","K10"],["W","L10"],["B","K11"],["W","K9"],["B","J10"],["W","M9"],["B","J11"],["W","M8"]],"rules":"Chinese","komi":7.5,"boardXSize":19,"boardYSize":19,"includeOwnership":true,"includePolicy":true,"maxVisits":1000}
+{"id":"udon-mixed","moves":[["B","D16"],["W","Q4"],["B","C17"],["W","R3"],["B","E16"],["W","P4"],["B","C16"],["W","R4"],["B","F16"],["W","O4"],["B","B16"]],"rules":"Chinese","komi":7.5,"boardXSize":19,"boardYSize":19,"includeOwnership":true,"includePolicy":true,"maxVisits":1000}

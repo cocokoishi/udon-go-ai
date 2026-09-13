@@ -1,0 +1,205 @@
+{
+  "actual": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\PureUdonGoClientSimPostRecovery\\Assets\\udon-go-ai\\Benchmarks\\KaTrain\\ClientSimExports\\GoNeuralOutputExport\\udon-neural-output-export.json",
+  "atol": 0.0001,
+  "baked_texture": {
+    "height": 733,
+    "sha256": "e00f701b6ef1498037e56a330f6243d2878ff9c74e6f6fddd5b0cf06a2f94309",
+    "width": 1024
+  },
+  "cases": [
+    {
+      "case": "opening",
+      "heads": {
+        "ownership": {
+          "count": 361,
+          "max_abs": 5.885958671569824e-07,
+          "mean_abs": 7.983255267808848e-08,
+          "mismatch_count": 0,
+          "rmse": 1.1085608155082852e-07,
+          "status": "PASS"
+        },
+        "policy_pass": {
+          "count": 1,
+          "max_abs": 4.76837158203125e-07,
+          "mean_abs": 4.76837158203125e-07,
+          "mismatch_count": 0,
+          "rmse": 4.76837158203125e-07,
+          "status": "PASS"
+        },
+        "policy_spatial": {
+          "count": 361,
+          "max_abs": 9.5367431640625e-06,
+          "mean_abs": 2.6312313581767833e-06,
+          "mismatch_count": 0,
+          "rmse": 2.9375510729367757e-06,
+          "status": "PASS"
+        },
+        "score": {
+          "count": 4,
+          "max_abs": 5.885958671569824e-07,
+          "mean_abs": 2.7194619178771973e-07,
+          "mismatch_count": 0,
+          "rmse": 3.533727984646165e-07,
+          "status": "PASS"
+        },
+        "value": {
+          "count": 3,
+          "max_abs": 1.430511474609375e-06,
+          "mean_abs": 1.0331471761067708e-06,
+          "mismatch_count": 0,
+          "rmse": 1.109778089822844e-06,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "case": "capture",
+      "heads": {
+        "ownership": {
+          "count": 361,
+          "max_abs": 4.76837158203125e-07,
+          "mean_abs": 8.074065668436174e-08,
+          "mismatch_count": 0,
+          "rmse": 1.1000386951489707e-07,
+          "status": "PASS"
+        },
+        "policy_pass": {
+          "count": 1,
+          "max_abs": 2.384185791015625e-06,
+          "mean_abs": 2.384185791015625e-06,
+          "mismatch_count": 0,
+          "rmse": 2.384185791015625e-06,
+          "status": "PASS"
+        },
+        "policy_spatial": {
+          "count": 361,
+          "max_abs": 6.198883056640625e-06,
+          "mean_abs": 1.5580175325811074e-06,
+          "mismatch_count": 0,
+          "rmse": 1.8383957968803538e-06,
+          "status": "PASS"
+        },
+        "score": {
+          "count": 4,
+          "max_abs": 1.341104507446289e-07,
+          "mean_abs": 1.0803341865539551e-07,
+          "mismatch_count": 0,
+          "rmse": 1.1175870895385742e-07,
+          "status": "PASS"
+        },
+        "value": {
+          "count": 3,
+          "max_abs": 9.5367431640625e-07,
+          "mean_abs": 4.76837158203125e-07,
+          "mismatch_count": 0,
+          "rmse": 6.155941241911915e-07,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "case": "fight",
+      "heads": {
+        "ownership": {
+          "count": 361,
+          "max_abs": 3.129243850708008e-07,
+          "mean_abs": 6.679949864043423e-08,
+          "mismatch_count": 0,
+          "rmse": 8.397992319700652e-08,
+          "status": "PASS"
+        },
+        "policy_pass": {
+          "count": 1,
+          "max_abs": 2.86102294921875e-06,
+          "mean_abs": 2.86102294921875e-06,
+          "mismatch_count": 0,
+          "rmse": 2.86102294921875e-06,
+          "status": "PASS"
+        },
+        "policy_spatial": {
+          "count": 361,
+          "max_abs": 7.62939453125e-06,
+          "mean_abs": 2.6923529494171986e-06,
+          "mismatch_count": 0,
+          "rmse": 2.871251531016111e-06,
+          "status": "PASS"
+        },
+        "score": {
+          "count": 4,
+          "max_abs": 1.4901161193847656e-07,
+          "mean_abs": 7.986091077327728e-08,
+          "mismatch_count": 0,
+          "rmse": 9.879155387116863e-08,
+          "status": "PASS"
+        },
+        "value": {
+          "count": 3,
+          "max_abs": 4.76837158203125e-07,
+          "mean_abs": 3.178914388020833e-07,
+          "mismatch_count": 0,
+          "rmse": 3.8933590933214475e-07,
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "case": "mixed",
+      "heads": {
+        "ownership": {
+          "count": 361,
+          "max_abs": 9.5367431640625e-07,
+          "mean_abs": 1.3163055849862684e-07,
+          "mismatch_count": 0,
+          "rmse": 1.9199454722038457e-07,
+          "status": "PASS"
+        },
+        "policy_pass": {
+          "count": 1,
+          "max_abs": 9.5367431640625e-07,
+          "mean_abs": 9.5367431640625e-07,
+          "mismatch_count": 0,
+          "rmse": 9.5367431640625e-07,
+          "status": "PASS"
+        },
+        "policy_spatial": {
+          "count": 361,
+          "max_abs": 6.079673767089844e-06,
+          "mean_abs": 3.5289334458327358e-06,
+          "mismatch_count": 0,
+          "rmse": 3.6680390555159788e-06,
+          "status": "PASS"
+        },
+        "score": {
+          "count": 4,
+          "max_abs": 2.980232238769531e-07,
+          "mean_abs": 1.4156103134155273e-07,
+          "mismatch_count": 0,
+          "rmse": 1.769414855098414e-07,
+          "status": "PASS"
+        },
+        "value": {
+          "count": 3,
+          "max_abs": 9.5367431640625e-07,
+          "mean_abs": 7.152557373046875e-07,
+          "mismatch_count": 0,
+          "rmse": 7.412734868597042e-07,
+          "status": "PASS"
+        }
+      }
+    }
+  ],
+  "export_numeric_comparison": "NOT_PERFORMED_BY_THIS_VERIFIER",
+  "export_status": "CLIENTSIM_OUTPUT_EXPORT_PASS",
+  "failures": [],
+  "model_name": "g170-b10c128-s1141046784-d204142634",
+  "raw_vs_baked_tensor_bytes": {
+    "exact": true,
+    "first_difference": null,
+    "max_abs": 0.0,
+    "tensor_count": 127
+  },
+  "rtol": 1e-05,
+  "schema": "pure-udon-go.clientsim-neural-numeric-comparison.v1",
+  "scope": "raw Udon GPU/readback heads versus independent CPU graph over captured Udon features; no KataGo post-search comparison",
+  "status": "PASS"
+}

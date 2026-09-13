@@ -1,0 +1,323 @@
+{
+  "acceptedActions": 160,
+  "actionCount": 160,
+  "checkpointCount": 11,
+  "failures": [],
+  "final": {
+    "finalGameState": {
+      "expected": 0,
+      "observed": 0,
+      "status": "PASS"
+    },
+    "finalMoveCount": {
+      "expected": 160,
+      "observed": 160,
+      "status": "PASS"
+    },
+    "finalPositionHistoryCount": {
+      "expected": 161,
+      "observed": 161,
+      "status": "PASS"
+    },
+    "finalSideToMove": {
+      "expected": 1,
+      "observed": 1,
+      "status": "PASS"
+    }
+  },
+  "legalQueries": 3971,
+  "rowFailures": 0,
+  "rows": [
+    {
+      "actionCount": 0,
+      "checkpoint": 0,
+      "expectedLegalCount": 361,
+      "observedLegalCount": 361,
+      "scalarMismatches": {},
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "legalMask",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "actionCount": 1,
+      "checkpoint": 1,
+      "expectedLegalCount": 360,
+      "observedLegalCount": 360,
+      "scalarMismatches": {},
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "legalMask",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "actionCount": 2,
+      "checkpoint": 2,
+      "expectedLegalCount": 359,
+      "observedLegalCount": 359,
+      "scalarMismatches": {},
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "legalMask",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "actionCount": 4,
+      "checkpoint": 3,
+      "expectedLegalCount": 357,
+      "observedLegalCount": 357,
+      "scalarMismatches": {},
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "legalMask",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "actionCount": 8,
+      "checkpoint": 4,
+      "expectedLegalCount": 353,
+      "observedLegalCount": 353,
+      "scalarMismatches": {},
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "legalMask",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "actionCount": 16,
+      "checkpoint": 5,
+      "expectedLegalCount": 345,
+      "observedLegalCount": 345,
+      "scalarMismatches": {},
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "legalMask",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "actionCount": 32,
+      "checkpoint": 6,
+      "expectedLegalCount": 329,
+      "observedLegalCount": 329,
+      "scalarMismatches": {},
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "legalMask",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "actionCount": 64,
+      "checkpoint": 7,
+      "expectedLegalCount": 298,
+      "observedLegalCount": 298,
+      "scalarMismatches": {},
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "legalMask",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "actionCount": 96,
+      "checkpoint": 8,
+      "expectedLegalCount": 266,
+      "observedLegalCount": 266,
+      "scalarMismatches": {},
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "legalMask",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "actionCount": 128,
+      "checkpoint": 9,
+      "expectedLegalCount": 236,
+      "observedLegalCount": 236,
+      "scalarMismatches": {},
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "legalMask",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "actionCount": 160,
+      "checkpoint": 10,
+      "expectedLegalCount": 207,
+      "observedLegalCount": 207,
+      "scalarMismatches": {},
+      "status": "PASS",
+      "vectors": [
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "board",
+          "observedCount": 361,
+          "status": "PASS"
+        },
+        {
+          "expectedCount": 361,
+          "firstMismatch": -1,
+          "mismatchCount": 0,
+          "name": "legalMask",
+          "observedCount": 361,
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "rules": "Tromp-Taylor positional-superko area komi-7.5 multi-stone-suicide",
+  "schema": "pure-udon-go.clientsim-rules-legal-matrix-differential.v1",
+  "scope": "361-point legal-mask and state comparison at eleven histories against independent Python reference; no neural or strength claim",
+  "status": "PASS",
+  "traceStatus": "CLIENTSIM_RULES_LEGAL_MATRIX_PASS"
+}

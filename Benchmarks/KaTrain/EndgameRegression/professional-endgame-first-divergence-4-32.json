@@ -1,0 +1,1998 @@
+{
+  "schema": "pure-udon-go.professional-endgame-first-divergence.v1",
+  "generatedLocal": "2026-09-10T11:58:24.7523529+08:00",
+  "comparison": "professional-endgame-parity-4-32-current.json",
+  "budgets": [
+    4,
+    32
+  ],
+  "positions": [
+    {
+      "id": "go-seigen-1966-01-05",
+      "v4": {
+        "udonDeterministicMove": "C14",
+        "katagoPlaySelectionMove": "A10",
+        "katagoRawVisitArgmaxMoves": [
+          "A10",
+          "C14",
+          "B14"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "C14"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": [
+          {
+            "rootVisits": 2,
+            "rawVisitArgmaxMoves": [
+              "C14"
+            ],
+            "playSelectionMove": "C14"
+          },
+          {
+            "rootVisits": 4,
+            "rawVisitArgmaxMoves": [
+              "A10",
+              "C14",
+              "B14"
+            ],
+            "playSelectionMove": "A10"
+          }
+        ]
+      },
+      "v32": {
+        "udonDeterministicMove": "C14",
+        "katagoPlaySelectionMove": "C14",
+        "katagoRawVisitArgmaxMoves": [
+          "C14"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "C14"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": [
+          {
+            "rootVisits": 5,
+            "rawVisitArgmaxMoves": [
+              "A10",
+              "C14",
+              "B14",
+              "A15"
+            ],
+            "playSelectionMove": "A10"
+          },
+          {
+            "rootVisits": 7,
+            "rawVisitArgmaxMoves": [
+              "C14"
+            ],
+            "playSelectionMove": "C14"
+          },
+          {
+            "rootVisits": 10,
+            "rawVisitArgmaxMoves": [
+              "C14"
+            ],
+            "playSelectionMove": "C14"
+          },
+          {
+            "rootVisits": 12,
+            "rawVisitArgmaxMoves": [
+              "C14"
+            ],
+            "playSelectionMove": "C14"
+          },
+          {
+            "rootVisits": 15,
+            "rawVisitArgmaxMoves": [
+              "C14"
+            ],
+            "playSelectionMove": "C14"
+          },
+          {
+            "rootVisits": 17,
+            "rawVisitArgmaxMoves": [
+              "C14"
+            ],
+            "playSelectionMove": "C14"
+          },
+          {
+            "rootVisits": 20,
+            "rawVisitArgmaxMoves": [
+              "C14"
+            ],
+            "playSelectionMove": "C14"
+          },
+          {
+            "rootVisits": 22,
+            "rawVisitArgmaxMoves": [
+              "C14"
+            ],
+            "playSelectionMove": "C14"
+          },
+          {
+            "rootVisits": 25,
+            "rawVisitArgmaxMoves": [
+              "C14"
+            ],
+            "playSelectionMove": "C14"
+          },
+          {
+            "rootVisits": 28,
+            "rawVisitArgmaxMoves": [
+              "C14"
+            ],
+            "playSelectionMove": "C14"
+          },
+          {
+            "rootVisits": 30,
+            "rawVisitArgmaxMoves": [
+              "C14"
+            ],
+            "playSelectionMove": "C14"
+          },
+          {
+            "rootVisits": 32,
+            "rawVisitArgmaxMoves": [
+              "C14"
+            ],
+            "playSelectionMove": "C14"
+          }
+        ]
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "go-seigen-1973-07-01",
+      "v4": {
+        "udonDeterministicMove": "R5",
+        "katagoPlaySelectionMove": "R5",
+        "katagoRawVisitArgmaxMoves": [
+          "R5"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "R5",
+          "G11",
+          "F14"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "R5",
+        "katagoPlaySelectionMove": "R5",
+        "katagoRawVisitArgmaxMoves": [
+          "R5"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "R5",
+          "G11",
+          "F14",
+          "F11",
+          "G13",
+          "O4",
+          "P1",
+          "K1",
+          "K19",
+          "D7"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "go-seigen-1951-04-11",
+      "v4": {
+        "udonDeterministicMove": "H7",
+        "katagoPlaySelectionMove": "H7",
+        "katagoRawVisitArgmaxMoves": [
+          "H7"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "H7"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "H7",
+        "katagoPlaySelectionMove": "H7",
+        "katagoRawVisitArgmaxMoves": [
+          "H7"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "H7"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "go-seigen-1971-09-12",
+      "v4": {
+        "udonDeterministicMove": "L8",
+        "katagoPlaySelectionMove": "L8",
+        "katagoRawVisitArgmaxMoves": [
+          "L8"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "L8"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "L8",
+        "katagoPlaySelectionMove": "L8",
+        "katagoRawVisitArgmaxMoves": [
+          "L8"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "L8"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "cho-chikun-2021-01-07",
+      "v4": {
+        "udonDeterministicMove": "B1",
+        "katagoPlaySelectionMove": "F1",
+        "katagoRawVisitArgmaxMoves": [
+          "F1",
+          "G2",
+          "B1"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "B1"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": [
+          {
+            "rootVisits": 1,
+            "rawVisitArgmaxMoves": [
+              "F1"
+            ],
+            "playSelectionMove": "F1"
+          },
+          {
+            "rootVisits": 4,
+            "rawVisitArgmaxMoves": [
+              "F1",
+              "G2"
+            ],
+            "playSelectionMove": "F1"
+          },
+          {
+            "rootVisits": 4,
+            "rawVisitArgmaxMoves": [
+              "F1",
+              "G2",
+              "B1"
+            ],
+            "playSelectionMove": "F1"
+          }
+        ]
+      },
+      "v32": {
+        "udonDeterministicMove": "B1",
+        "katagoPlaySelectionMove": "F1",
+        "katagoRawVisitArgmaxMoves": [
+          "F1"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "B1"
+        ],
+        "rawVisitParity": false,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": [
+          {
+            "rootVisits": 5,
+            "rawVisitArgmaxMoves": [
+              "F1"
+            ],
+            "playSelectionMove": "F1"
+          },
+          {
+            "rootVisits": 8,
+            "rawVisitArgmaxMoves": [
+              "F1"
+            ],
+            "playSelectionMove": "F1"
+          },
+          {
+            "rootVisits": 11,
+            "rawVisitArgmaxMoves": [
+              "F1",
+              "G2"
+            ],
+            "playSelectionMove": "F1"
+          },
+          {
+            "rootVisits": 14,
+            "rawVisitArgmaxMoves": [
+              "F1"
+            ],
+            "playSelectionMove": "F1"
+          },
+          {
+            "rootVisits": 17,
+            "rawVisitArgmaxMoves": [
+              "F1",
+              "B1"
+            ],
+            "playSelectionMove": "F1"
+          },
+          {
+            "rootVisits": 20,
+            "rawVisitArgmaxMoves": [
+              "F1",
+              "B1"
+            ],
+            "playSelectionMove": "F1"
+          },
+          {
+            "rootVisits": 23,
+            "rawVisitArgmaxMoves": [
+              "F1"
+            ],
+            "playSelectionMove": "F1"
+          },
+          {
+            "rootVisits": 26,
+            "rawVisitArgmaxMoves": [
+              "F1",
+              "G2"
+            ],
+            "playSelectionMove": "F1"
+          },
+          {
+            "rootVisits": 29,
+            "rawVisitArgmaxMoves": [
+              "F1"
+            ],
+            "playSelectionMove": "F1"
+          },
+          {
+            "rootVisits": 32,
+            "rawVisitArgmaxMoves": [
+              "F1"
+            ],
+            "playSelectionMove": "F1"
+          }
+        ]
+      },
+      "category": "C_ONLY_32_RAW_MISMATCH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "cho-chikun-2018-10-22",
+      "v4": {
+        "udonDeterministicMove": "E4",
+        "katagoPlaySelectionMove": "E4",
+        "katagoRawVisitArgmaxMoves": [
+          "E4"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "E4"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "E4",
+        "katagoPlaySelectionMove": "E8",
+        "katagoRawVisitArgmaxMoves": [
+          "E4"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "E4"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "cho-chikun-2025-05-22",
+      "v4": {
+        "udonDeterministicMove": "A13",
+        "katagoPlaySelectionMove": "A13",
+        "katagoRawVisitArgmaxMoves": [
+          "A13"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "A13"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "A13",
+        "katagoPlaySelectionMove": "A13",
+        "katagoRawVisitArgmaxMoves": [
+          "A13"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "A13"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "cho-chikun-2012-04-12b",
+      "v4": {
+        "udonDeterministicMove": "A19",
+        "katagoPlaySelectionMove": "A19",
+        "katagoRawVisitArgmaxMoves": [
+          "A19"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "A19"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "A19",
+        "katagoPlaySelectionMove": "A19",
+        "katagoRawVisitArgmaxMoves": [
+          "A19"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "A19"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "alphago-fanhui-1",
+      "v4": {
+        "udonDeterministicMove": "Q13",
+        "katagoPlaySelectionMove": "C16",
+        "katagoRawVisitArgmaxMoves": [
+          "C16",
+          "Q13",
+          "R9"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "Q13",
+          "C16",
+          "R9"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "Q13",
+        "katagoPlaySelectionMove": "Q13",
+        "katagoRawVisitArgmaxMoves": [
+          "Q13"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "Q13"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "alphago-fanhui-2",
+      "v4": {
+        "udonDeterministicMove": "H15",
+        "katagoPlaySelectionMove": "P13",
+        "katagoRawVisitArgmaxMoves": [
+          "P13",
+          "H15",
+          "H16"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "H15",
+          "H16",
+          "J16"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "H15",
+        "katagoPlaySelectionMove": "H15",
+        "katagoRawVisitArgmaxMoves": [
+          "H15",
+          "H16"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "H15"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "alphago-fanhui-5",
+      "v4": {
+        "udonDeterministicMove": "J17",
+        "katagoPlaySelectionMove": "J17",
+        "katagoRawVisitArgmaxMoves": [
+          "J17"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "J17",
+          "J18",
+          "C2"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "J17",
+        "katagoPlaySelectionMove": "J17",
+        "katagoRawVisitArgmaxMoves": [
+          "J17"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "J17"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "alphago-lee-sedol-1",
+      "v4": {
+        "udonDeterministicMove": "B3",
+        "katagoPlaySelectionMove": "B3",
+        "katagoRawVisitArgmaxMoves": [
+          "B3"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "B3",
+          "C3",
+          "E11"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "B3",
+        "katagoPlaySelectionMove": "B3",
+        "katagoRawVisitArgmaxMoves": [
+          "B3"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "B3"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "alphago-lee-sedol-2",
+      "v4": {
+        "udonDeterministicMove": "K6",
+        "katagoPlaySelectionMove": "K6",
+        "katagoRawVisitArgmaxMoves": [
+          "K6"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "K6",
+          "B2",
+          "D16"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "K6",
+        "katagoPlaySelectionMove": "K6",
+        "katagoRawVisitArgmaxMoves": [
+          "K6"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "K6"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "alphago-lee-sedol-5",
+      "v4": {
+        "udonDeterministicMove": "M5",
+        "katagoPlaySelectionMove": "A7",
+        "katagoRawVisitArgmaxMoves": [
+          "A7",
+          "M5",
+          "M4"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "M5",
+          "M4",
+          "A7"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "M5",
+        "katagoPlaySelectionMove": "A7",
+        "katagoRawVisitArgmaxMoves": [
+          "A7"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "M5",
+          "M4",
+          "A7",
+          "E8",
+          "O15",
+          "L15",
+          "F7",
+          "A4",
+          "S6",
+          "Q16"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "alphago-ke-jie-1",
+      "v4": {
+        "udonDeterministicMove": "A6",
+        "katagoPlaySelectionMove": "A6",
+        "katagoRawVisitArgmaxMoves": [
+          "A6"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "A6"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "A6",
+        "katagoPlaySelectionMove": "A6",
+        "katagoRawVisitArgmaxMoves": [
+          "A6"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "A6"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "alphago-ke-jie-2",
+      "v4": {
+        "udonDeterministicMove": "D4",
+        "katagoPlaySelectionMove": "D4",
+        "katagoRawVisitArgmaxMoves": [
+          "D4"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "D4"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "D4",
+        "katagoPlaySelectionMove": "D4",
+        "katagoRawVisitArgmaxMoves": [
+          "D4"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "D4"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "master-mi-yuting",
+      "v4": {
+        "udonDeterministicMove": "R2",
+        "katagoPlaySelectionMove": "R2",
+        "katagoRawVisitArgmaxMoves": [
+          "R2"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "R2"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "R2",
+        "katagoPlaySelectionMove": "R2",
+        "katagoRawVisitArgmaxMoves": [
+          "R2"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "R2"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "master-jiang-weijie",
+      "v4": {
+        "udonDeterministicMove": "C3",
+        "katagoPlaySelectionMove": "D19",
+        "katagoRawVisitArgmaxMoves": [
+          "D19",
+          "C3",
+          "C16"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "C3",
+          "D19",
+          "C16"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "C3",
+        "katagoPlaySelectionMove": "C3",
+        "katagoRawVisitArgmaxMoves": [
+          "C3"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "C3",
+          "D19",
+          "C16",
+          "J17",
+          "A14",
+          "F10",
+          "F11",
+          "B17",
+          "A16",
+          "Q2"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "master-chen-yaoye-t22",
+      "v4": {
+        "udonDeterministicMove": "H16",
+        "katagoPlaySelectionMove": "H16",
+        "katagoRawVisitArgmaxMoves": [
+          "H16"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "H16"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "H16",
+        "katagoPlaySelectionMove": "H16",
+        "katagoRawVisitArgmaxMoves": [
+          "H16"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "H16"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "master-meng-tailing-t09",
+      "v4": {
+        "udonDeterministicMove": "G1",
+        "katagoPlaySelectionMove": "G1",
+        "katagoRawVisitArgmaxMoves": [
+          "G1"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "G1"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "G1",
+        "katagoPlaySelectionMove": "G1",
+        "katagoRawVisitArgmaxMoves": [
+          "G1"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "G1"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "master-meng-tailing-f40",
+      "v4": {
+        "udonDeterministicMove": "R15",
+        "katagoPlaySelectionMove": "E19",
+        "katagoRawVisitArgmaxMoves": [
+          "E19"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "R15",
+          "E19",
+          "C15"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "R15",
+        "katagoPlaySelectionMove": "R15",
+        "katagoRawVisitArgmaxMoves": [
+          "R15"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "R15",
+          "E19",
+          "C15",
+          "M4",
+          "A4",
+          "O3",
+          "Q14",
+          "F10",
+          "K7",
+          "P1"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "master-chen-yaoye-t21",
+      "v4": {
+        "udonDeterministicMove": "A13",
+        "katagoPlaySelectionMove": "A13",
+        "katagoRawVisitArgmaxMoves": [
+          "A13"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "A13",
+          "S8",
+          "E16"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "A13",
+        "katagoPlaySelectionMove": "A13",
+        "katagoRawVisitArgmaxMoves": [
+          "A13"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "A13"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "master-park-junghwan-f48",
+      "v4": {
+        "udonDeterministicMove": "H11",
+        "katagoPlaySelectionMove": "M10",
+        "katagoRawVisitArgmaxMoves": [
+          "M10"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "H11",
+          "Q9",
+          "E9"
+        ],
+        "rawVisitParity": false,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": [
+          {
+            "rootVisits": 4,
+            "rawVisitArgmaxMoves": [
+              "M10"
+            ],
+            "playSelectionMove": "M10"
+          }
+        ]
+      },
+      "v32": {
+        "udonDeterministicMove": "H11",
+        "katagoPlaySelectionMove": "M10",
+        "katagoRawVisitArgmaxMoves": [
+          "M10"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "H11",
+          "Q9",
+          "E9",
+          "A13",
+          "M10",
+          "G10",
+          "D7",
+          "G19",
+          "T18",
+          "C17"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": [
+          {
+            "rootVisits": 8,
+            "rawVisitArgmaxMoves": [
+              "M10",
+              "G10"
+            ],
+            "playSelectionMove": "M10"
+          },
+          {
+            "rootVisits": 13,
+            "rawVisitArgmaxMoves": [
+              "M10"
+            ],
+            "playSelectionMove": "M10"
+          },
+          {
+            "rootVisits": 17,
+            "rawVisitArgmaxMoves": [
+              "M10"
+            ],
+            "playSelectionMove": "M10"
+          },
+          {
+            "rootVisits": 21,
+            "rawVisitArgmaxMoves": [
+              "M10"
+            ],
+            "playSelectionMove": "M10"
+          },
+          {
+            "rootVisits": 26,
+            "rawVisitArgmaxMoves": [
+              "M10"
+            ],
+            "playSelectionMove": "M10"
+          },
+          {
+            "rootVisits": 30,
+            "rawVisitArgmaxMoves": [
+              "M10"
+            ],
+            "playSelectionMove": "M10"
+          },
+          {
+            "rootVisits": 32,
+            "rawVisitArgmaxMoves": [
+              "M10"
+            ],
+            "playSelectionMove": "M10"
+          }
+        ]
+      },
+      "category": "B_ONLY_4_RAW_MISMATCH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "master-chen-yaoye-f55",
+      "v4": {
+        "udonDeterministicMove": "J12",
+        "katagoPlaySelectionMove": "J12",
+        "katagoRawVisitArgmaxMoves": [
+          "J12",
+          "K10",
+          "A4"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "J12"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "J12",
+        "katagoPlaySelectionMove": "J12",
+        "katagoRawVisitArgmaxMoves": [
+          "J12"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "J12"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "master-park-junghwan-t25",
+      "v4": {
+        "udonDeterministicMove": "D8",
+        "katagoPlaySelectionMove": "G4",
+        "katagoRawVisitArgmaxMoves": [
+          "G4"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "D8"
+        ],
+        "rawVisitParity": false,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": [
+          {
+            "rootVisits": 1,
+            "rawVisitArgmaxMoves": [
+              "G4"
+            ],
+            "playSelectionMove": "G4"
+          },
+          {
+            "rootVisits": 4,
+            "rawVisitArgmaxMoves": [
+              "G4"
+            ],
+            "playSelectionMove": "G4"
+          }
+        ]
+      },
+      "v32": {
+        "udonDeterministicMove": "D8",
+        "katagoPlaySelectionMove": "G4",
+        "katagoRawVisitArgmaxMoves": [
+          "G4"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "D8"
+        ],
+        "rawVisitParity": false,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": [
+          {
+            "rootVisits": 6,
+            "rawVisitArgmaxMoves": [
+              "G4"
+            ],
+            "playSelectionMove": "G4"
+          },
+          {
+            "rootVisits": 10,
+            "rawVisitArgmaxMoves": [
+              "G4"
+            ],
+            "playSelectionMove": "G4"
+          },
+          {
+            "rootVisits": 15,
+            "rawVisitArgmaxMoves": [
+              "G4"
+            ],
+            "playSelectionMove": "G4"
+          },
+          {
+            "rootVisits": 20,
+            "rawVisitArgmaxMoves": [
+              "G4"
+            ],
+            "playSelectionMove": "G4"
+          },
+          {
+            "rootVisits": 25,
+            "rawVisitArgmaxMoves": [
+              "G4"
+            ],
+            "playSelectionMove": "G4"
+          },
+          {
+            "rootVisits": 29,
+            "rawVisitArgmaxMoves": [
+              "G4"
+            ],
+            "playSelectionMove": "G4"
+          },
+          {
+            "rootVisits": 32,
+            "rawVisitArgmaxMoves": [
+              "G4"
+            ],
+            "playSelectionMove": "G4"
+          }
+        ]
+      },
+      "category": "A_BOTH_RAW_MISMATCH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "master-an-sungjun",
+      "v4": {
+        "udonDeterministicMove": "T12",
+        "katagoPlaySelectionMove": "E19",
+        "katagoRawVisitArgmaxMoves": [
+          "E19",
+          "G19",
+          "T12"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "T12",
+          "E19",
+          "J5"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": [
+          {
+            "rootVisits": 4,
+            "rawVisitArgmaxMoves": [
+              "E19",
+              "G19",
+              "T12"
+            ],
+            "playSelectionMove": "E19"
+          }
+        ]
+      },
+      "v32": {
+        "udonDeterministicMove": "T12",
+        "katagoPlaySelectionMove": "E19",
+        "katagoRawVisitArgmaxMoves": [
+          "E19"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "T12",
+          "E19",
+          "J5",
+          "R1",
+          "G19",
+          "Q1",
+          "F6",
+          "J8",
+          "J7",
+          "H2"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": [
+          {
+            "rootVisits": 4,
+            "rawVisitArgmaxMoves": [
+              "E19",
+              "G19",
+              "T12"
+            ],
+            "playSelectionMove": "E19"
+          },
+          {
+            "rootVisits": 9,
+            "rawVisitArgmaxMoves": [
+              "E19"
+            ],
+            "playSelectionMove": "E19"
+          },
+          {
+            "rootVisits": 14,
+            "rawVisitArgmaxMoves": [
+              "E19"
+            ],
+            "playSelectionMove": "E19"
+          },
+          {
+            "rootVisits": 19,
+            "rawVisitArgmaxMoves": [
+              "T12",
+              "G19"
+            ],
+            "playSelectionMove": "T12"
+          },
+          {
+            "rootVisits": 24,
+            "rawVisitArgmaxMoves": [
+              "E19"
+            ],
+            "playSelectionMove": "E19"
+          },
+          {
+            "rootVisits": 29,
+            "rawVisitArgmaxMoves": [
+              "E19"
+            ],
+            "playSelectionMove": "E19"
+          },
+          {
+            "rootVisits": 32,
+            "rawVisitArgmaxMoves": [
+              "E19"
+            ],
+            "playSelectionMove": "E19"
+          }
+        ]
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "master-park-junghwan-t20",
+      "v4": {
+        "udonDeterministicMove": "H1",
+        "katagoPlaySelectionMove": "H1",
+        "katagoRawVisitArgmaxMoves": [
+          "H1"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "H1"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "H1",
+        "katagoPlaySelectionMove": "H1",
+        "katagoRawVisitArgmaxMoves": [
+          "H1"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "H1"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "master-nie-weiping",
+      "v4": {
+        "udonDeterministicMove": "D17",
+        "katagoPlaySelectionMove": "L13",
+        "katagoRawVisitArgmaxMoves": [
+          "L13",
+          "H7",
+          "T12"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "D17"
+        ],
+        "rawVisitParity": false,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": [
+          {
+            "rootVisits": 4,
+            "rawVisitArgmaxMoves": [
+              "L13",
+              "H7",
+              "T12"
+            ],
+            "playSelectionMove": "L13"
+          }
+        ]
+      },
+      "v32": {
+        "udonDeterministicMove": "D17",
+        "katagoPlaySelectionMove": "L13",
+        "katagoRawVisitArgmaxMoves": [
+          "L13"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "D17"
+        ],
+        "rawVisitParity": false,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": [
+          {
+            "rootVisits": 9,
+            "rawVisitArgmaxMoves": [
+              "L13",
+              "H7",
+              "T12"
+            ],
+            "playSelectionMove": "L13"
+          },
+          {
+            "rootVisits": 14,
+            "rawVisitArgmaxMoves": [
+              "T12"
+            ],
+            "playSelectionMove": "T12"
+          },
+          {
+            "rootVisits": 20,
+            "rawVisitArgmaxMoves": [
+              "H7"
+            ],
+            "playSelectionMove": "H7"
+          },
+          {
+            "rootVisits": 25,
+            "rawVisitArgmaxMoves": [
+              "L13",
+              "H7",
+              "T12"
+            ],
+            "playSelectionMove": "L13"
+          },
+          {
+            "rootVisits": 30,
+            "rawVisitArgmaxMoves": [
+              "L13"
+            ],
+            "playSelectionMove": "L13"
+          },
+          {
+            "rootVisits": 32,
+            "rawVisitArgmaxMoves": [
+              "L13"
+            ],
+            "playSelectionMove": "L13"
+          }
+        ]
+      },
+      "category": "A_BOTH_RAW_MISMATCH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "master-tuo-jiaxi",
+      "v4": {
+        "udonDeterministicMove": "O14",
+        "katagoPlaySelectionMove": "O14",
+        "katagoRawVisitArgmaxMoves": [
+          "O14"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "O14",
+          "K14",
+          "O9"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "O14",
+        "katagoPlaySelectionMove": "O14",
+        "katagoRawVisitArgmaxMoves": [
+          "O14"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "O14"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "master-gu-li",
+      "v4": {
+        "udonDeterministicMove": "M1",
+        "katagoPlaySelectionMove": "L15",
+        "katagoRawVisitArgmaxMoves": [
+          "L15"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "M1"
+        ],
+        "rawVisitParity": false,
+        "rawVisitExact": false,
+        "playSelectionParity": false,
+        "deterministicVsPlaySelection": false,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": [
+          {
+            "rootVisits": 4,
+            "rawVisitArgmaxMoves": [
+              "L15"
+            ],
+            "playSelectionMove": "L15"
+          }
+        ]
+      },
+      "v32": {
+        "udonDeterministicMove": "M1",
+        "katagoPlaySelectionMove": "M1",
+        "katagoRawVisitArgmaxMoves": [
+          "M1"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "M1"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": [
+          {
+            "rootVisits": 4,
+            "rawVisitArgmaxMoves": [
+              "M1"
+            ],
+            "playSelectionMove": "M1"
+          },
+          {
+            "rootVisits": 15,
+            "rawVisitArgmaxMoves": [
+              "L15",
+              "M1"
+            ],
+            "playSelectionMove": "L15"
+          },
+          {
+            "rootVisits": 25,
+            "rawVisitArgmaxMoves": [
+              "L15",
+              "M1"
+            ],
+            "playSelectionMove": "L15"
+          },
+          {
+            "rootVisits": 32,
+            "rawVisitArgmaxMoves": [
+              "M1"
+            ],
+            "playSelectionMove": "M1"
+          }
+        ]
+      },
+      "category": "B_ONLY_4_RAW_MISMATCH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "master-ke-jie-t18",
+      "v4": {
+        "udonDeterministicMove": "L13",
+        "katagoPlaySelectionMove": "L13",
+        "katagoRawVisitArgmaxMoves": [
+          "L13"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "L13"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "L13",
+        "katagoPlaySelectionMove": "L13",
+        "katagoRawVisitArgmaxMoves": [
+          "L13"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "L13"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    },
+    {
+      "id": "master-park-junghwan-t24",
+      "v4": {
+        "udonDeterministicMove": "A2",
+        "katagoPlaySelectionMove": "A2",
+        "katagoRawVisitArgmaxMoves": [
+          "A2"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "A2",
+          "F5",
+          "D7"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": false,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "v32": {
+        "udonDeterministicMove": "A2",
+        "katagoPlaySelectionMove": "A2",
+        "katagoRawVisitArgmaxMoves": [
+          "A2"
+        ],
+        "udonRawVisitArgmaxMoves": [
+          "A2"
+        ],
+        "rawVisitParity": true,
+        "rawVisitExact": true,
+        "playSelectionParity": true,
+        "deterministicVsPlaySelection": true,
+        "rootDecisionTraceAvailable": false,
+        "udonRootDecisions": [],
+        "kataRootReports": []
+      },
+      "category": "D_RAW_MATCH_BOTH",
+      "firstDivergence": {
+        "status": "NOT_CAPTURED",
+        "note": "KataGo reportDuringSearch exposes root snapshots, not the internal child-selection path. Exact first-simulation parity requires a trace-capable KataGo build or an equivalent per-playout hook; final moveInfos order is not used as a raw-visit proxy."
+      }
+    }
+  ],
+  "rawVisitMismatch4": [
+    "master-park-junghwan-f48",
+    "master-park-junghwan-t25",
+    "master-nie-weiping",
+    "master-gu-li"
+  ],
+  "rawVisitMismatch32": [
+    "cho-chikun-2021-01-07",
+    "master-park-junghwan-t25",
+    "master-nie-weiping"
+  ],
+  "categories": {
+    "bothRawMismatch": [
+      "master-park-junghwan-t25",
+      "master-nie-weiping"
+    ],
+    "only4RawMismatch": [
+      "master-park-junghwan-f48",
+      "master-gu-li"
+    ],
+    "only32RawMismatch": [
+      "cho-chikun-2021-01-07"
+    ],
+    "rawMatchBoth": [
+      "go-seigen-1966-01-05",
+      "go-seigen-1973-07-01",
+      "go-seigen-1951-04-11",
+      "go-seigen-1971-09-12",
+      "cho-chikun-2018-10-22",
+      "cho-chikun-2025-05-22",
+      "cho-chikun-2012-04-12b",
+      "alphago-fanhui-1",
+      "alphago-fanhui-2",
+      "alphago-fanhui-5",
+      "alphago-lee-sedol-1",
+      "alphago-lee-sedol-2",
+      "alphago-lee-sedol-5",
+      "alphago-ke-jie-1",
+      "alphago-ke-jie-2",
+      "master-mi-yuting",
+      "master-jiang-weijie",
+      "master-chen-yaoye-t22",
+      "master-meng-tailing-t09",
+      "master-meng-tailing-f40",
+      "master-chen-yaoye-t21",
+      "master-chen-yaoye-f55",
+      "master-an-sungjun",
+      "master-park-junghwan-t20",
+      "master-tuo-jiaxi",
+      "master-ke-jie-t18",
+      "master-park-junghwan-t24"
+    ]
+  },
+  "interpretation": "Raw visit argmax is compared as a tie-aware set. KataGo play-selection and sampled product moves remain separate metrics. The current report does not claim exact first divergence until a per-playout KataGo hook is available."
+}

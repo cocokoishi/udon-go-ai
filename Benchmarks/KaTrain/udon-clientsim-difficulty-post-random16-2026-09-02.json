@@ -1,0 +1,15 @@
+{
+  "schema": "pure-udon-go.clientsim-difficulty-regression.v1",
+  "status": "PASS",
+  "log": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260902-difficulty-post-random16-v1.log",
+  "budgets": [32, 64, 128, 514],
+  "actualVisits": [32, 64, 128, 514],
+  "elapsedSeconds": [8.695, 16.044, 32.572, 128.138],
+  "frames": [1025, 2038, 3994, 16558],
+  "treeEdges": [11524, 23046, 46087, 185054],
+  "selectedMoves": [60, 3, 60, 60],
+  "rootVisitSums": [31, 63, 127, 513],
+  "rootOwnershipReadbacks": 4,
+  "strengthCalibration": "NOT_ESTABLISHED",
+  "performanceGate": "NOT_REASSESSED; host conditions are not the clean-host gate"
+}

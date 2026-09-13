@@ -1,0 +1,120 @@
+{
+  "schema": "pure-udon-go.clientsim-finalization.v1",
+  "status": "PASS",
+  "date": "2026-09-02",
+  "unity": "2022.3.22f1",
+  "graphicsApi": "Direct3D 11",
+  "project": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\PureUdonGoClientSimPostRecovery",
+  "scene": "Assets/PureUdonGo/Generated/Scenes/PureUdonGoProduction.unity",
+  "generation": {
+    "generatedRoots": 1,
+    "udonBehaviours": 6498,
+    "programs": 47,
+    "compiled": 47,
+    "compilerError": false,
+    "boardPoints": 361,
+    "tableCapacity": 16,
+    "visibleTables": 3,
+    "readbackChannels": 32,
+    "readbackChannelsPerTable": 2,
+    "ultraHardVisits": 514,
+    "engineMaxVisits": 1226,
+    "log": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260902-final-generate-v3.log"
+  },
+  "validator": {
+    "failures": 0,
+    "warnings": 1,
+    "log": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260902-final-validator-v3.log"
+  },
+  "runtimeGates": {
+    "ui": {
+      "pass": true,
+      "hintMove": "Q3",
+      "visits": 32,
+      "readbackStages": 4,
+      "ownershipReadbacks": 1,
+      "finalMoveCount": 0,
+      "analysisUseful": true,
+      "log": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260902-ui-analysis-v5.log"
+    },
+    "pool": {
+      "pass": true,
+      "visibleSequence": [3, 4, 3],
+      "parallelSearches": 2,
+      "schedulerSlots": [0, 1],
+      "log": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260902-final-pool-v3.log"
+    },
+    "staleResult": {
+      "pass": true,
+      "revisionBefore": 2,
+      "revisionAfter": 3,
+      "moveCount": 0,
+      "aiMoves": 0,
+      "neuralOutputRevision": 0,
+      "searchPhase": 4,
+      "readerState": 4,
+      "log": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260902-final-stale-v6.log"
+    },
+    "undoDraw": {
+      "pass": true,
+      "pvAiUndoHistory": true,
+      "pvpUndoConsent": true,
+      "pvpDrawConsent": true,
+      "log": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260902-final-undo-draw-v3.log"
+    },
+    "capturePresentation": {
+      "pass": true,
+      "captureRules": true,
+      "captureAnimationObserved": true,
+      "log": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260902-capture-rules-v2.log",
+      "validatorLog": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260902-capture-validator-v1.log"
+    },
+    "modes": {
+      "pass": true,
+      "modes": ["PvP", "PvAI", "AIvP", "AIvAI"],
+      "pvpPanelYaw": 90,
+      "aiPanelYaw": 0,
+      "profiles": [64, 128, 514],
+      "aiMoves": 2,
+      "log": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260902-final-modes-v4.log"
+    },
+    "completeGame": {
+      "pass": true,
+      "moves": 372,
+      "aiMoves": 372,
+      "passMoves": 18,
+      "terminalState": 2,
+      "controllerState": 0,
+      "log": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260902-complete-v1.log"
+    },
+    "floorGravity": {
+      "pass": true,
+      "startY": 2.0,
+      "finalY": 0.004999951,
+      "minY": 0.004999951,
+      "floorY": 6.661338e-17,
+      "grounded": true,
+      "sawDownwardMotion": true,
+      "crossedFloor": false,
+      "stableFrames": 12,
+      "sampleFrames": 13,
+      "finalVelocityY": 0.0,
+      "log": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260902-floor-v4.log"
+    },
+    "legalMoveMatrix": {
+      "pass": true,
+      "actions": 160,
+      "positions": 11,
+      "legalQueries": 3971,
+      "acceptedActions": 160,
+      "rowFailures": 0,
+      "log": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260902-rules-matrix-v1.log",
+      "report": "Benchmarks/KaTrain/udon-clientsim-rules-legal-matrix-differential-2026-09-02.json"
+    }
+  },
+  "limitations": [
+    "One validator warning records the raw KataGo oracle outside the isolated Unity project root.",
+    "ClientSim is not physical VRChat or Quest runtime evidence.",
+    "This milestone does not establish independent multi-client transport or balanced strength calibration."
+  ]
+}

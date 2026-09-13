@@ -1,0 +1,65 @@
+{
+  "actualVisits": 4,
+  "deterministicRootMove": 97,
+  "referenceMatch": {
+    "mismatches": [],
+    "pass": true
+  },
+  "rootEdges": [
+    {
+      "explorationU": 0.8636236190795898,
+      "meanQ": -0.3418509066104889,
+      "move": 97,
+      "prior": 0.6263095140457153,
+      "selectionScore": 0.5217727422714233,
+      "valueSum": -0.6837018132209778,
+      "visits": 2
+    },
+    {
+      "explorationU": 0.48288455605506897,
+      "meanQ": -0.45582687854766846,
+      "move": 171,
+      "prior": 0.23346219956874847,
+      "selectionScore": 0.027057677507400513,
+      "valueSum": -0.45582687854766846,
+      "visits": 1
+    }
+  ],
+  "rootVisits": 4,
+  "sampledSelectedMove": 171,
+  "schema": "pure-udon-go.udon-search-reference-output.v1",
+  "simulations": [
+    {
+      "index": 0,
+      "leafNode": 0,
+      "leafValue": 0.3795813322067261,
+      "path": []
+    },
+    {
+      "index": 1,
+      "leafNode": 1,
+      "leafValue": 0.5000486969947815,
+      "path": [
+        97
+      ]
+    },
+    {
+      "index": 2,
+      "leafNode": 2,
+      "leafValue": 0.45582687854766846,
+      "path": [
+        171
+      ]
+    },
+    {
+      "index": 3,
+      "leafNode": 3,
+      "leafValue": -0.1836531162261963,
+      "path": [
+        97,
+        96
+      ]
+    }
+  ],
+  "targetVisits": 4
+}

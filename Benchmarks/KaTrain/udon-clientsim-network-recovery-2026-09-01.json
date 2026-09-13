@@ -1,0 +1,26 @@
+{
+  "schema": "pure-udon-go.clientsim-network-recovery.v1",
+  "status": "PASS",
+  "date": "2026-09-01",
+  "unity": "2022.3.22f1",
+  "graphicsApi": "Direct3D 11",
+  "scene": "Assets/PureUdonGo/Generated/Scenes/PureUdonGoProduction.unity",
+  "log": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260901-network-recovery-v4.log",
+  "checks": {
+    "remoteLeaveEventObservedByUdon": true,
+    "undoSeatCleared": true,
+    "drawSeatCleared": true,
+    "undoOfferCleared": true,
+    "drawOfferCleared": true,
+    "aiControlAuthorityCleared": true,
+    "undoNetworkRecoveryRevision": "0->1",
+    "drawNetworkRecoveryRevision": "0->1",
+    "aiNetworkRecoveryRevision": "0->1",
+    "positionsPreserved": true
+  },
+  "limitations": [
+    "ClientSim uses one Udon VM; the remote player is simulated by ClientSim.",
+    "The probe seeds remote identity fields after creating real Udon positions because a second VM cannot press seat controls.",
+    "Independent VRChat-client transport and new-player-ID reconnect are not established by this report."
+  ]
+}

@@ -1,0 +1,95 @@
+name: Raw KataGo model inspection and bake
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.KataGO/g170e-b10c128-s1141046784-d204142634.bin.gz'
+      - 'Tools/KataGoModelConverter/**'
+      - 'Tools/RepositoryBoundary/**'
+      - '.github/workflows/model-inspection.yml'
+      - 'AGENTS.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: raw-model-inspection-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  inspect-and-bake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Enforce repository boundary
+        run: python Tools/RepositoryBoundary/check_repository_boundary.py
+
+      - name: Unit test model tools
+        working-directory: Tools/KataGoModelConverter
+        run: python -m unittest discover -s tests -v
+
+      - name: Probe real production model
+        run: |
+          python Tools/KataGoModelConverter/inspect_model_header.py \
+            --model .KataGO/g170e-b10c128-s1141046784-d204142634.bin.gz \
+            --output Tests/ReferenceData/model_header_probe.json
+
+      - name: Parse every production tensor
+        run: |
+          python Tools/KataGoModelConverter/katago_model_parser.py \
+            --model .KataGO/g170e-b10c128-s1141046784-d204142634.bin.gz \
+            --output Tests/ReferenceData/model_tensor_manifest.json
+
+      - name: Bake production FP32 EXR and verify reconstruction
+        run: |
+          python Tools/KataGoModelConverter/convert_model.py \
+            --model .KataGO/g170e-b10c128-s1141046784-d204142634.bin.gz \
+            --output-dir Assets/PureUdonGo/Model/Generated \
+            --width 1024
+          python - <<'PY'
+          import json
+          x=json.load(open('Tests/ReferenceData/model_tensor_manifest.json',encoding='utf-8'))
+          p=json.load(open('Assets/PureUdonGo/Model/Generated/packing_manifest.json',encoding='utf-8'))
+          r=json.load(open('Assets/PureUdonGo/Model/Generated/tensor_reconstruction.json',encoding='utf-8'))
+          print('model',x['architecture']['model_name'])
+          print('version',x['architecture']['model_version'])
+          print('tensor_count',x['tensor_count'])
+          print('tensor_element_count',x['tensor_element_count'])
+          print('bytes_consumed',x['bytes_consumed'],'/',x['decompressed_size_bytes'])
+          print('source_sha256',x['source_sha256'])
+          print('architecture_sha256',x['architecture_sha256'])
+          print('texture',p['texture']['width'],p['texture']['height'],p['texture']['sha256'])
+          print('reconstruction_failures',r['failure_count'])
+          if r['failure_count'] != 0:
+              raise SystemExit('weight reconstruction failed')
+          PY
+
+      - name: Confirm deterministic production model outputs
+        shell: bash
+        run: |
+          git diff --check
+          test -f Assets/PureUdonGo/Model/Generated/ModelManifest.json
+          test -f Assets/PureUdonGo/Model/Generated/weights_rgba32f.exr
+          echo "Production model outputs are verified in this workflow workspace; no remote mutation is performed."
+
+      - name: Upload production model evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-katago-model-evidence
+          path: |
+            Tests/ReferenceData/model_header_probe.json
+            Tests/ReferenceData/model_tensor_manifest.json
+            Assets/PureUdonGo/Model/Generated/ModelManifest.json
+            Assets/PureUdonGo/Model/Generated/packing_manifest.json
+            Assets/PureUdonGo/Model/Generated/tensor_reconstruction.json
+          if-no-files-found: error

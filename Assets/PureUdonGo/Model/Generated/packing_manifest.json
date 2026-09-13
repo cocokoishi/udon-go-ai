@@ -1,0 +1,1529 @@
+{
+  "architecture_sha256": "b4e93cc11da2539f79e7a17d8c3deee360873730d90f059853cb62a71360cda3",
+  "capacity_float_count": 3002368,
+  "compressed_size_bytes": 11138361,
+  "decompressed_sha256": "49b75eacdfd8587fe153e6889070d509504750a45fda16105e67bf8c456148d4",
+  "decompressed_size_bytes": 12003218,
+  "layout_schema": {
+    "channel_order": "RGBA",
+    "float_lane_order": "R,G,B,A",
+    "float_offset_unit": "float32",
+    "name": "sequential source-order float32 values into RGBA pixels",
+    "padding": "zero-filled tail",
+    "texel_order": "row-major"
+  },
+  "model_name": "g170-b10c128-s1141046784-d204142634",
+  "model_version": 8,
+  "precision": "float32",
+  "schema": "pure-udon-go.weight-packing.v2",
+  "source_path": ".KataGO/g170e-b10c128-s1141046784-d204142634.bin.gz",
+  "source_sha256": "1a8e05a4ea3fca20dab79410cbb566c760767fcdd2fa0b701cfe259a84cc8b04",
+  "tensor_bytes": 12000284,
+  "tensor_count": 127,
+  "tensor_element_count": 3000071,
+  "tensors": [
+    {
+      "atlas_float_count": 70400,
+      "atlas_float_offset": 0,
+      "element_count": 70400,
+      "kind": "conv",
+      "name": "conv1",
+      "shape": [
+        5,
+        5,
+        22,
+        128
+      ],
+      "source_data_sha256": "50e936919c09cbd158cfcecf4d845d68b4def70017cdaaeb293c43eb39fac7ce"
+    },
+    {
+      "atlas_float_count": 2432,
+      "atlas_float_offset": 70400,
+      "element_count": 2432,
+      "kind": "matmul",
+      "name": "ginputw",
+      "shape": [
+        19,
+        128
+      ],
+      "source_data_sha256": "9d0996e5aea5aedb81ce1f226e14edb2a3d20fb1ffc9ac8c52dd94d50a579b5a"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 72832,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv1/norm1.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 72960,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv1/norm1.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 73088,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv1/norm1.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "78a4fe600b97b566286b5e90aaace6a5fe5eb19068aba37f278e88cede4b79e5"
+    },
+    {
+      "atlas_float_count": 147456,
+      "atlas_float_offset": 73216,
+      "element_count": 147456,
+      "kind": "conv",
+      "name": "rconv1/w1",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ],
+      "source_data_sha256": "2877f40cbee616616b02d1352d83678bc36d5ee1cbf8447f2dc33cf7026e140f"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 220672,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv1/norm2.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 220800,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv1/norm2.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 220928,
+      "element_count": 128,
+      "kind": "bn_scale",
+      "name": "rconv1/norm2.scale",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "6bff0eafaa6fd21d3e7c5b72fddd909ed5024b5debb9a97b5ecd65016ce57f95"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 221056,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv1/norm2.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "9d8c465e1e0535dd5e65d1cedc4493fa24bee8747a3414eca8c885ee58e3f9da"
+    },
+    {
+      "atlas_float_count": 147456,
+      "atlas_float_offset": 221184,
+      "element_count": 147456,
+      "kind": "conv",
+      "name": "rconv1/w2",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ],
+      "source_data_sha256": "ad13b99a4b85fe5532bfaa8805611678dde5c66e283e94b2b312662da756e6ef"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 368640,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv2/norm1.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 368768,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv2/norm1.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 368896,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv2/norm1.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "980c05fa6c27befb37a85a635386db8a1cdc47850b0f683bf98af8a4d3aa4d44"
+    },
+    {
+      "atlas_float_count": 147456,
+      "atlas_float_offset": 369024,
+      "element_count": 147456,
+      "kind": "conv",
+      "name": "rconv2/w1",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ],
+      "source_data_sha256": "2b07e476d72a592116362fd971f2e276213bed0d57b049ec23c41aa0e0708a7b"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 516480,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv2/norm2.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 516608,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv2/norm2.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 516736,
+      "element_count": 128,
+      "kind": "bn_scale",
+      "name": "rconv2/norm2.scale",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "98e1b253cd0a3f0b5779fcc72827cf3b35a40c9b87c0d5d39ea08b8a952e7ed5"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 516864,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv2/norm2.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "7bf70d5f857959b12163c7cf4db72b1b1d613420c9e466682e35f41edd482d09"
+    },
+    {
+      "atlas_float_count": 147456,
+      "atlas_float_offset": 516992,
+      "element_count": 147456,
+      "kind": "conv",
+      "name": "rconv2/w2",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ],
+      "source_data_sha256": "303a89cf980404fdbf8805fee79f362c43df56b204dc003cab17b3a23fa7a9c6"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 664448,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv3/norm1.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 664576,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv3/norm1.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 664704,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv3/norm1.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "13dcd26682d1745c2d0897416c2a92b213536e4cf62561fefba83f926f7d0aad"
+    },
+    {
+      "atlas_float_count": 147456,
+      "atlas_float_offset": 664832,
+      "element_count": 147456,
+      "kind": "conv",
+      "name": "rconv3/w1",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ],
+      "source_data_sha256": "fb7a7f5a902681390fc2c50fdeccd65052ae04732eaeadcef7b88754215e7c4e"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 812288,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv3/norm2.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 812416,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv3/norm2.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 812544,
+      "element_count": 128,
+      "kind": "bn_scale",
+      "name": "rconv3/norm2.scale",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "62162f9de7b5c1a09c19d7bcf38cb4228bb2fb103c24f1b7c6e4b302e907e537"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 812672,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv3/norm2.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "c7f42f588531d20e182a5f4ce5abf0eaaea5af9fa5c57e470f33fcdbd7d53478"
+    },
+    {
+      "atlas_float_count": 147456,
+      "atlas_float_offset": 812800,
+      "element_count": 147456,
+      "kind": "conv",
+      "name": "rconv3/w2",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ],
+      "source_data_sha256": "88504dfae23446287ce4bb595090bf29cf1acb52fbe7f6270d8919db7d0ea218"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 960256,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv4/norm1.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 960384,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv4/norm1.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 960512,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv4/norm1.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "4672bddb9f32335488016ddff473dc2c18962247d8005b95ea11cf6d5ab133f4"
+    },
+    {
+      "atlas_float_count": 147456,
+      "atlas_float_offset": 960640,
+      "element_count": 147456,
+      "kind": "conv",
+      "name": "rconv4/w1",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ],
+      "source_data_sha256": "34bd6472368e9b0713c31e218c09e6a1673d97b0cecf93f782940eabb5f8a05e"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1108096,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv4/norm2.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1108224,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv4/norm2.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1108352,
+      "element_count": 128,
+      "kind": "bn_scale",
+      "name": "rconv4/norm2.scale",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02f5a5d26367e302fdc3c55f2ef9605049363965719750ca409971870ec85d02"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1108480,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv4/norm2.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "3aa0afb9d5baf5edc5d1275a524bdd7596df9565d47c0c7b44839dad4f1c707b"
+    },
+    {
+      "atlas_float_count": 147456,
+      "atlas_float_offset": 1108608,
+      "element_count": 147456,
+      "kind": "conv",
+      "name": "rconv4/w2",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ],
+      "source_data_sha256": "2c51d5c39208d2e6eb221a1647130b80122dcdb0edce5313d7baf91d307f2d78"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1256064,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv5/norm1.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1256192,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv5/norm1.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1256320,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv5/norm1.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "23f23135bc47fe5f587b25809172614d2699396210536ea263625f78b72539ca"
+    },
+    {
+      "atlas_float_count": 110592,
+      "atlas_float_offset": 1256448,
+      "element_count": 110592,
+      "kind": "conv",
+      "name": "rconv5/w1a",
+      "shape": [
+        3,
+        3,
+        128,
+        96
+      ],
+      "source_data_sha256": "a14a4713eead5221962b3aae3abdd15dff4ed4b98b1e21b4255be000c4671f86"
+    },
+    {
+      "atlas_float_count": 36864,
+      "atlas_float_offset": 1367040,
+      "element_count": 36864,
+      "kind": "conv",
+      "name": "rconv5/w1b",
+      "shape": [
+        3,
+        3,
+        128,
+        32
+      ],
+      "source_data_sha256": "6e602f7eb118c68c31507740c94a740cd98e79b8d4bfff69bdf6a61e31315546"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 1403904,
+      "element_count": 32,
+      "kind": "bn_mean",
+      "name": "rconv5/norm1b.mean",
+      "shape": [
+        32
+      ],
+      "source_data_sha256": "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 1403936,
+      "element_count": 32,
+      "kind": "bn_variance",
+      "name": "rconv5/norm1b.variance",
+      "shape": [
+        32
+      ],
+      "source_data_sha256": "b638277a8690e175a9137feff1e43c067f9faf4e2f600caf468fb05b0403b717"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 1403968,
+      "element_count": 32,
+      "kind": "bn_bias",
+      "name": "rconv5/norm1b.bias",
+      "shape": [
+        32
+      ],
+      "source_data_sha256": "c3231d430f4fbe5b41ccb00274d2625cc8a9b696b69a9455f79a85da195b5e12"
+    },
+    {
+      "atlas_float_count": 9216,
+      "atlas_float_offset": 1404000,
+      "element_count": 9216,
+      "kind": "matmul",
+      "name": "rconv5/w1r",
+      "shape": [
+        96,
+        96
+      ],
+      "source_data_sha256": "924d23e43748a09ed800963ef0d12179bb44a0441c1692a3a563cd73d61c9f7a"
+    },
+    {
+      "atlas_float_count": 96,
+      "atlas_float_offset": 1413216,
+      "element_count": 96,
+      "kind": "bn_mean",
+      "name": "rconv5/norm2.mean",
+      "shape": [
+        96
+      ],
+      "source_data_sha256": "a1a4f5721c1c4610af7f71078f3a68c330536d679803b0e0507ee8dc10c5dfca"
+    },
+    {
+      "atlas_float_count": 96,
+      "atlas_float_offset": 1413312,
+      "element_count": 96,
+      "kind": "bn_variance",
+      "name": "rconv5/norm2.variance",
+      "shape": [
+        96
+      ],
+      "source_data_sha256": "23a90de3949c5b5e42f5a28198b6126ce4153737353b42d4af5fe4f5cf13021f"
+    },
+    {
+      "atlas_float_count": 96,
+      "atlas_float_offset": 1413408,
+      "element_count": 96,
+      "kind": "bn_scale",
+      "name": "rconv5/norm2.scale",
+      "shape": [
+        96
+      ],
+      "source_data_sha256": "187937939a5b4523e703a38940da8498b69280b488d3b376d7cca9592a2ebb96"
+    },
+    {
+      "atlas_float_count": 96,
+      "atlas_float_offset": 1413504,
+      "element_count": 96,
+      "kind": "bn_bias",
+      "name": "rconv5/norm2.bias",
+      "shape": [
+        96
+      ],
+      "source_data_sha256": "24f0774809a4731beb2da41181829c53810c22a2e6289e50070f7768c179a78c"
+    },
+    {
+      "atlas_float_count": 110592,
+      "atlas_float_offset": 1413600,
+      "element_count": 110592,
+      "kind": "conv",
+      "name": "rconv5/w2",
+      "shape": [
+        3,
+        3,
+        96,
+        128
+      ],
+      "source_data_sha256": "28d68f84a55ae9843ceee8bfd47fed9dd6da704b31d6dea8ab82a0e1e1d91b29"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1524192,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv6/norm1.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1524320,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv6/norm1.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1524448,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv6/norm1.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "517cb2df008743316489dbac2c6f36973c5466f48607fde2fee9b466c29a3c49"
+    },
+    {
+      "atlas_float_count": 147456,
+      "atlas_float_offset": 1524576,
+      "element_count": 147456,
+      "kind": "conv",
+      "name": "rconv6/w1",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ],
+      "source_data_sha256": "6342fbc6d96a6e983238696e13087e246c3f543227144b28c2c889f778e6672b"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1672032,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv6/norm2.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1672160,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv6/norm2.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1672288,
+      "element_count": 128,
+      "kind": "bn_scale",
+      "name": "rconv6/norm2.scale",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "7dab92d75094e452414a895d4514d7c0bd018248a8ca74441ce5cc49a10eee6a"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1672416,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv6/norm2.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "eaa2dcaea4cccfa9e6cc4aa5d5fb0776a63a9478394d9a04dfc34fa637ab11e1"
+    },
+    {
+      "atlas_float_count": 147456,
+      "atlas_float_offset": 1672544,
+      "element_count": 147456,
+      "kind": "conv",
+      "name": "rconv6/w2",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ],
+      "source_data_sha256": "c69db40e7066de288b04763da324962712aea113c42a8bcacb4eb89541545881"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1820000,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv7/norm1.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1820128,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv7/norm1.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1820256,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv7/norm1.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "99fa3263495a3c53ffc764c3e0567a3d95bbdff4ebc406be5a804c9a864fb137"
+    },
+    {
+      "atlas_float_count": 147456,
+      "atlas_float_offset": 1820384,
+      "element_count": 147456,
+      "kind": "conv",
+      "name": "rconv7/w1",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ],
+      "source_data_sha256": "7acd02248803901cad124a0be77825e4749296552aa37a4f7d4fefe223f334f5"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1967840,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv7/norm2.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1967968,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv7/norm2.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1968096,
+      "element_count": 128,
+      "kind": "bn_scale",
+      "name": "rconv7/norm2.scale",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "0b5d2edb0bcf6560ec2892c5ec91f774c11aa9de7e811956bdb1d5e93579899a"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 1968224,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv7/norm2.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "6e14a0d7525ce6d48962e4636408afbff67e45aab7ec4dd771d043a03fb5a6ee"
+    },
+    {
+      "atlas_float_count": 147456,
+      "atlas_float_offset": 1968352,
+      "element_count": 147456,
+      "kind": "conv",
+      "name": "rconv7/w2",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ],
+      "source_data_sha256": "2b0b5aa18f0eb69035c7a87519bd13d0a988a88a3f9dc830788256e21e232841"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2115808,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv8/norm1.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2115936,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv8/norm1.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2116064,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv8/norm1.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "d847b1f625ff461b0c81b7f670decbe2283710fce0076dbb4bd9f620510bff7c"
+    },
+    {
+      "atlas_float_count": 110592,
+      "atlas_float_offset": 2116192,
+      "element_count": 110592,
+      "kind": "conv",
+      "name": "rconv8/w1a",
+      "shape": [
+        3,
+        3,
+        128,
+        96
+      ],
+      "source_data_sha256": "4daee417cf0ec717359474ae090542fef4b35f1affb9b7a467e3bf9c5a84c63d"
+    },
+    {
+      "atlas_float_count": 36864,
+      "atlas_float_offset": 2226784,
+      "element_count": 36864,
+      "kind": "conv",
+      "name": "rconv8/w1b",
+      "shape": [
+        3,
+        3,
+        128,
+        32
+      ],
+      "source_data_sha256": "ed9b434947485db16c4ae3e0e0f3df723890921a0f86b92d63fa626d61b9f89a"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 2263648,
+      "element_count": 32,
+      "kind": "bn_mean",
+      "name": "rconv8/norm1b.mean",
+      "shape": [
+        32
+      ],
+      "source_data_sha256": "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 2263680,
+      "element_count": 32,
+      "kind": "bn_variance",
+      "name": "rconv8/norm1b.variance",
+      "shape": [
+        32
+      ],
+      "source_data_sha256": "b638277a8690e175a9137feff1e43c067f9faf4e2f600caf468fb05b0403b717"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 2263712,
+      "element_count": 32,
+      "kind": "bn_bias",
+      "name": "rconv8/norm1b.bias",
+      "shape": [
+        32
+      ],
+      "source_data_sha256": "5967e5eba768725878581c80bafe398b86b273d0804e95ea86eb1f77a648fc6a"
+    },
+    {
+      "atlas_float_count": 9216,
+      "atlas_float_offset": 2263744,
+      "element_count": 9216,
+      "kind": "matmul",
+      "name": "rconv8/w1r",
+      "shape": [
+        96,
+        96
+      ],
+      "source_data_sha256": "50fc195b6a8c8051874e19304777a86995534ce9393216e648eb55e1325cc6a6"
+    },
+    {
+      "atlas_float_count": 96,
+      "atlas_float_offset": 2272960,
+      "element_count": 96,
+      "kind": "bn_mean",
+      "name": "rconv8/norm2.mean",
+      "shape": [
+        96
+      ],
+      "source_data_sha256": "a1a4f5721c1c4610af7f71078f3a68c330536d679803b0e0507ee8dc10c5dfca"
+    },
+    {
+      "atlas_float_count": 96,
+      "atlas_float_offset": 2273056,
+      "element_count": 96,
+      "kind": "bn_variance",
+      "name": "rconv8/norm2.variance",
+      "shape": [
+        96
+      ],
+      "source_data_sha256": "23a90de3949c5b5e42f5a28198b6126ce4153737353b42d4af5fe4f5cf13021f"
+    },
+    {
+      "atlas_float_count": 96,
+      "atlas_float_offset": 2273152,
+      "element_count": 96,
+      "kind": "bn_scale",
+      "name": "rconv8/norm2.scale",
+      "shape": [
+        96
+      ],
+      "source_data_sha256": "5e2cc4826d4231d656d9f51189915013c5c147001c205bd06bc613fc00b62f9f"
+    },
+    {
+      "atlas_float_count": 96,
+      "atlas_float_offset": 2273248,
+      "element_count": 96,
+      "kind": "bn_bias",
+      "name": "rconv8/norm2.bias",
+      "shape": [
+        96
+      ],
+      "source_data_sha256": "0e4239ffa75662d222ced1a0dee3e5442ef7c2a6079a1dcc091553875a53fc70"
+    },
+    {
+      "atlas_float_count": 110592,
+      "atlas_float_offset": 2273344,
+      "element_count": 110592,
+      "kind": "conv",
+      "name": "rconv8/w2",
+      "shape": [
+        3,
+        3,
+        96,
+        128
+      ],
+      "source_data_sha256": "a45123c635f0587ce383f9d1558dfb16368bc1e4227c5bc4c92b0aa47abcac43"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2383936,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv9/norm1.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2384064,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv9/norm1.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2384192,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv9/norm1.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "71f737083db6a51c51556c9294a1068ebc59521680ed71c575941b147e659674"
+    },
+    {
+      "atlas_float_count": 147456,
+      "atlas_float_offset": 2384320,
+      "element_count": 147456,
+      "kind": "conv",
+      "name": "rconv9/w1",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ],
+      "source_data_sha256": "619c8c624217a7ed7a04f6a91fec7b72c619f9feaee5bebc4d7c98853d7c9469"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2531776,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv9/norm2.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2531904,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv9/norm2.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2532032,
+      "element_count": 128,
+      "kind": "bn_scale",
+      "name": "rconv9/norm2.scale",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "3ca77711323543dab510d9098cf1b5e37e6cd55a21fc8796a0a78fb5d8d5fcac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2532160,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv9/norm2.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "543e4a3984d0cc5e30b38cccc48c0e66494741f61558356ea925e66042633696"
+    },
+    {
+      "atlas_float_count": 147456,
+      "atlas_float_offset": 2532288,
+      "element_count": 147456,
+      "kind": "conv",
+      "name": "rconv9/w2",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ],
+      "source_data_sha256": "dea621b52f029875ef45790c978ae5456a589e29860d994d343afd712805edb1"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2679744,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv10/norm1.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2679872,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv10/norm1.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2680000,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv10/norm1.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "520836a729122984fbbd7b083de62101e8b56bb9e4c1756b5e628cd9cab1eba6"
+    },
+    {
+      "atlas_float_count": 147456,
+      "atlas_float_offset": 2680128,
+      "element_count": 147456,
+      "kind": "conv",
+      "name": "rconv10/w1",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ],
+      "source_data_sha256": "ee9da77c941123fac2ccfa5f3786748928cf7d662553bd9aece04e3556647b51"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2827584,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "rconv10/norm2.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2827712,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "rconv10/norm2.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2827840,
+      "element_count": 128,
+      "kind": "bn_scale",
+      "name": "rconv10/norm2.scale",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "c59132c4fbbe757ca8eaba777ddb585d1d91099f78a3427cc27ff4c252c6a431"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2827968,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "rconv10/norm2.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "9950fb2b3e17308cd14d6a8024632babeac6606feb05378e24bdcf50575a7139"
+    },
+    {
+      "atlas_float_count": 147456,
+      "atlas_float_offset": 2828096,
+      "element_count": 147456,
+      "kind": "conv",
+      "name": "rconv10/w2",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ],
+      "source_data_sha256": "28254d2931370d01562a716620f90bc73f33f3c16d849e0035d2e8113cc7820d"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2975552,
+      "element_count": 128,
+      "kind": "bn_mean",
+      "name": "trunk/norm.mean",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2975680,
+      "element_count": 128,
+      "kind": "bn_variance",
+      "name": "trunk/norm.variance",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    {
+      "atlas_float_count": 128,
+      "atlas_float_offset": 2975808,
+      "element_count": 128,
+      "kind": "bn_bias",
+      "name": "trunk/norm.bias",
+      "shape": [
+        128
+      ],
+      "source_data_sha256": "bc0e756a8d63b8c28656ea363b7bf70832cd895606214912234d94630c69154d"
+    },
+    {
+      "atlas_float_count": 4096,
+      "atlas_float_offset": 2975936,
+      "element_count": 4096,
+      "kind": "conv",
+      "name": "p1/intermediate_conv/w",
+      "shape": [
+        1,
+        1,
+        128,
+        32
+      ],
+      "source_data_sha256": "4b01325ff27a53256c2648286920db8c6ca10db64b090e4c95e13713b7854c87"
+    },
+    {
+      "atlas_float_count": 4096,
+      "atlas_float_offset": 2980032,
+      "element_count": 4096,
+      "kind": "conv",
+      "name": "g1/w",
+      "shape": [
+        1,
+        1,
+        128,
+        32
+      ],
+      "source_data_sha256": "42c8d71b7f08533011cddaf5cac6b58aaea14a82b1859bfbc6097594401d7ab9"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 2984128,
+      "element_count": 32,
+      "kind": "bn_mean",
+      "name": "g1/norm.mean",
+      "shape": [
+        32
+      ],
+      "source_data_sha256": "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 2984160,
+      "element_count": 32,
+      "kind": "bn_variance",
+      "name": "g1/norm.variance",
+      "shape": [
+        32
+      ],
+      "source_data_sha256": "b638277a8690e175a9137feff1e43c067f9faf4e2f600caf468fb05b0403b717"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 2984192,
+      "element_count": 32,
+      "kind": "bn_bias",
+      "name": "g1/norm.bias",
+      "shape": [
+        32
+      ],
+      "source_data_sha256": "37e19d0f0c245ce427576ac6429faa5db6f406870bcec8c63317d16de2078030"
+    },
+    {
+      "atlas_float_count": 3072,
+      "atlas_float_offset": 2984224,
+      "element_count": 3072,
+      "kind": "matmul",
+      "name": "matmulg2w",
+      "shape": [
+        96,
+        32
+      ],
+      "source_data_sha256": "f8741761663452ccd58fadc3a3b6f7fbdaea22afaf8a84c68354a4deac5d2315"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 2987296,
+      "element_count": 32,
+      "kind": "bn_mean",
+      "name": "p1/norm.mean",
+      "shape": [
+        32
+      ],
+      "source_data_sha256": "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 2987328,
+      "element_count": 32,
+      "kind": "bn_variance",
+      "name": "p1/norm.variance",
+      "shape": [
+        32
+      ],
+      "source_data_sha256": "b638277a8690e175a9137feff1e43c067f9faf4e2f600caf468fb05b0403b717"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 2987360,
+      "element_count": 32,
+      "kind": "bn_bias",
+      "name": "p1/norm.bias",
+      "shape": [
+        32
+      ],
+      "source_data_sha256": "791a6da3924665d3ed52b680e6f2ea6d7712f8bbcb88d51561e632bb8aebf28e"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 2987392,
+      "element_count": 32,
+      "kind": "conv",
+      "name": "p2/w",
+      "shape": [
+        1,
+        1,
+        32,
+        1
+      ],
+      "source_data_sha256": "b0ac70546d4225e43a88c56fdac9aa54ee844344d8f4a461046beb2f1e121d92"
+    },
+    {
+      "atlas_float_count": 96,
+      "atlas_float_offset": 2987424,
+      "element_count": 96,
+      "kind": "matmul",
+      "name": "matmulpass",
+      "shape": [
+        96,
+        1
+      ],
+      "source_data_sha256": "980e2f2723e849b34361f68eda5439af12d2bca7edb16f169dce3be21515612c"
+    },
+    {
+      "atlas_float_count": 4096,
+      "atlas_float_offset": 2987520,
+      "element_count": 4096,
+      "kind": "conv",
+      "name": "v1/w",
+      "shape": [
+        1,
+        1,
+        128,
+        32
+      ],
+      "source_data_sha256": "570a3ec0851bc27b3cd5953191eb5a248de559efd434799796fa4f09e772b2d9"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 2991616,
+      "element_count": 32,
+      "kind": "bn_mean",
+      "name": "v1/norm.mean",
+      "shape": [
+        32
+      ],
+      "source_data_sha256": "38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 2991648,
+      "element_count": 32,
+      "kind": "bn_variance",
+      "name": "v1/norm.variance",
+      "shape": [
+        32
+      ],
+      "source_data_sha256": "b638277a8690e175a9137feff1e43c067f9faf4e2f600caf468fb05b0403b717"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 2991680,
+      "element_count": 32,
+      "kind": "bn_bias",
+      "name": "v1/norm.bias",
+      "shape": [
+        32
+      ],
+      "source_data_sha256": "48616cee0d0bd73be525655cfc16d4a204033dbc11164cbe839a201bc289c4f3"
+    },
+    {
+      "atlas_float_count": 7680,
+      "atlas_float_offset": 2991712,
+      "element_count": 7680,
+      "kind": "matmul",
+      "name": "v2/w",
+      "shape": [
+        96,
+        80
+      ],
+      "source_data_sha256": "0e4b35da951daf2f07473b63c5685e0bd8082c203728e137fa7768759e7b2829"
+    },
+    {
+      "atlas_float_count": 80,
+      "atlas_float_offset": 2999392,
+      "element_count": 80,
+      "kind": "bias",
+      "name": "v2/b",
+      "shape": [
+        80
+      ],
+      "source_data_sha256": "f2a8fcafb9417a872e3662fdd19fae1f14be34651738980433e4c7818d742426"
+    },
+    {
+      "atlas_float_count": 240,
+      "atlas_float_offset": 2999472,
+      "element_count": 240,
+      "kind": "matmul",
+      "name": "v3/w",
+      "shape": [
+        80,
+        3
+      ],
+      "source_data_sha256": "79689c0d24c21daac5f6886511b46d1d5d03b28cbbfdbd61e9351731b1f20161"
+    },
+    {
+      "atlas_float_count": 3,
+      "atlas_float_offset": 2999712,
+      "element_count": 3,
+      "kind": "bias",
+      "name": "v3/b",
+      "shape": [
+        3
+      ],
+      "source_data_sha256": "249f5ba48b271af952652769b8d7398fe66e6be1bae6d34ee9549f6f8d782cd3"
+    },
+    {
+      "atlas_float_count": 320,
+      "atlas_float_offset": 2999715,
+      "element_count": 320,
+      "kind": "matmul",
+      "name": "sv3/w",
+      "shape": [
+        80,
+        4
+      ],
+      "source_data_sha256": "319f8157fdd722d16e8a8a5604d6358510bba93afabc856f250e7f244cf19bcf"
+    },
+    {
+      "atlas_float_count": 4,
+      "atlas_float_offset": 3000035,
+      "element_count": 4,
+      "kind": "bias",
+      "name": "sv3/b",
+      "shape": [
+        4
+      ],
+      "source_data_sha256": "e8bd569649be5792d8b9ade39095f0f7eff8e80804535718b72fea23817a800e"
+    },
+    {
+      "atlas_float_count": 32,
+      "atlas_float_offset": 3000039,
+      "element_count": 32,
+      "kind": "conv",
+      "name": "vownership/w",
+      "shape": [
+        1,
+        1,
+        32,
+        1
+      ],
+      "source_data_sha256": "d5390b7fb3eb7ef8643784b37411ba1338fce44fe7bd5f28c9374b107c3e02d3"
+    }
+  ],
+  "texture": {
+    "channels": "RGBA",
+    "compression": "NONE",
+    "file": "weights_rgba32f.exr",
+    "height": 733,
+    "pixel_type": "FLOAT",
+    "raw_file": "weights_rgba32f.raw",
+    "raw_sha256": "10285a17fd7a47a3b6bdde08a26d13c34c9bbcde566dfbd66c5fa27911c65866",
+    "raw_size_bytes": 12009472,
+    "runtime_asset_file": "weights_rgba32f.asset",
+    "sha256": "e00f701b6ef1498037e56a330f6243d2878ff9c74e6f6fddd5b0cf06a2f94309",
+    "width": 1024
+  },
+  "used_float_count": 3000071
+}

@@ -1,0 +1,71 @@
+{
+  "architecture": {
+    "architecture_sha256": "b4e93cc11da2539f79e7a17d8c3deee360873730d90f059853cb62a71360cda3",
+    "model_name": "g170-b10c128-s1141046784-d204142634",
+    "model_version": 8
+  },
+  "files": {
+    "packing_manifest.json": {
+      "sha256": "55932f9bd650a8b04c0164334296c117d1db4aea6f840dde9fb2ed85cac6e5b4",
+      "size_bytes": 42295
+    },
+    "tensor_manifest.json": {
+      "sha256": "fde63c16b72e34a6d00b3f712b5edac8a58c7ff2689bbafb3770e7839c602e6c",
+      "size_bytes": 41415
+    },
+    "tensor_reconstruction.json": {
+      "sha256": "de43ef3c2395171b0d92a65a61e06717fe885bed6ad531b460f4e3386459762a",
+      "size_bytes": 52054
+    },
+    "weights_rgba32f.asset": {
+      "sha256": "86842c9fa11f89c7cfc0c26f77b344cdc3fb2e364b01de987a9f0978473b3408",
+      "size_bytes": 24020027
+    },
+    "weights_rgba32f.exr": {
+      "sha256": "e00f701b6ef1498037e56a330f6243d2878ff9c74e6f6fddd5b0cf06a2f94309",
+      "size_bytes": 12021531
+    },
+    "weights_rgba32f.raw": {
+      "sha256": "10285a17fd7a47a3b6bdde08a26d13c34c9bbcde566dfbd66c5fa27911c65866",
+      "size_bytes": 12009472
+    }
+  },
+  "layout_schema": {
+    "channel_order": "RGBA",
+    "float_lane_order": "R,G,B,A",
+    "float_offset_unit": "float32",
+    "name": "sequential source-order float32 values into RGBA pixels",
+    "padding": "zero-filled tail",
+    "texel_order": "row-major"
+  },
+  "precision": "float32",
+  "schema": "pure-udon-go.production-model.v2",
+  "source": {
+    "compressed_sha256": "1a8e05a4ea3fca20dab79410cbb566c760767fcdd2fa0b701cfe259a84cc8b04",
+    "compressed_size_bytes": 11138361,
+    "decompressed_sha256": "49b75eacdfd8587fe153e6889070d509504750a45fda16105e67bf8c456148d4",
+    "decompressed_size_bytes": 12003218,
+    "path": ".KataGO/g170e-b10c128-s1141046784-d204142634.bin.gz"
+  },
+  "tensor_bytes": 12000284,
+  "tensor_count": 127,
+  "tensor_element_count": 3000071,
+  "texture": {
+    "channels": "RGBA",
+    "compression": "NONE",
+    "file": "weights_rgba32f.exr",
+    "height": 733,
+    "pixel_type": "FLOAT",
+    "raw_file": "weights_rgba32f.raw",
+    "raw_sha256": "10285a17fd7a47a3b6bdde08a26d13c34c9bbcde566dfbd66c5fa27911c65866",
+    "raw_size_bytes": 12009472,
+    "runtime_asset_file": "weights_rgba32f.asset",
+    "sha256": "e00f701b6ef1498037e56a330f6243d2878ff9c74e6f6fddd5b0cf06a2f94309",
+    "width": 1024
+  },
+  "verification": {
+    "exact_tensor_count": 127,
+    "failure_count": 0,
+    "schema": "pure-udon-go.weight-reconstruction.v2"
+  }
+}

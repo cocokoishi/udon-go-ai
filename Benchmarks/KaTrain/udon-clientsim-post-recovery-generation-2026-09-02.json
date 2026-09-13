@@ -1,0 +1,42 @@
+{
+  "schema": "pure-udon-go.clientsim-generation-regression.v1",
+  "status": "PASS",
+  "date": "2026-09-02",
+  "unity": "2022.3.22f1",
+  "graphicsApi": "Direct3D 11",
+  "scene": "Assets/PureUdonGo/Generated/Scenes/PureUdonGoProduction.unity",
+  "runs": [
+    {
+      "log": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260901-post-recovery-generate-new-v1.log",
+      "generatedRoots": 1,
+      "udonBehaviours": 6498,
+      "programs": 46,
+      "compiled": 46,
+      "compilerError": false
+    },
+    {
+      "log": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260902-post-recovery-generate-new-v2.log",
+      "generatedRoots": 1,
+      "udonBehaviours": 6498,
+      "programs": 46,
+      "compiled": 46,
+      "compilerError": false
+    }
+  ],
+  "checks": {
+    "idempotentRootCount": true,
+    "stableBehaviourCount": true,
+    "tableCapacity": 16,
+    "visibleTables": 3,
+    "gpuRuntimeStacks": 16,
+    "readbackChannels": 32,
+    "readbackChannelsPerTable": 2,
+    "validatorFailures": 0,
+    "validatorLog": "E:\\UnityPRJS\\ShaderGPT_neoversion\\Temp\\Logs\\pure-udon-go-cs20260902-post-validator-v2.log",
+    "validatorWarnings": 1
+  },
+  "limitations": [
+    "The validator warning records that the raw KataGo oracle is outside the isolated Unity project root.",
+    "This is not physical VRChat hardware or independent multi-client transport evidence."
+  ]
+}
