@@ -33,7 +33,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_DERIVED_HISTORY_REATTACHED");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim Derived History Rebuild")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim Derived History Rebuild")]
         public static void VerifyClientSimDerivedHistoryRebuild()
         {
             ResetRunner();

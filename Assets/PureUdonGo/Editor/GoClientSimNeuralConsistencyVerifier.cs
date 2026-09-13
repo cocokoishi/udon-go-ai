@@ -66,37 +66,37 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_NEURAL_EXPORT_REATTACHED");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Export ClientSim Neural Outputs")]
+[MenuItem("Tools/Pure Udon Go/Tests/Export ClientSim Neural Outputs")]
         public static void ExportClientSimNeuralOutputs()
         {
             BeginExport(0, 4, "fixed");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Export ClientSim Random Neural Outputs")]
+[MenuItem("Tools/Pure Udon Go/Tests/Export ClientSim Random Neural Outputs")]
         public static void ExportClientSimRandomNeuralOutputs()
         {
             BeginExport(4, 4, "random");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Export ClientSim Random Neural Case 0")]
+[MenuItem("Tools/Pure Udon Go/Tests/Export ClientSim Random Neural Case 0")]
         public static void ExportClientSimRandomNeuralCase()
         {
             BeginExport(4, 1, "random-case-a");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Export ClientSim Random Neural Case 1")]
+[MenuItem("Tools/Pure Udon Go/Tests/Export ClientSim Random Neural Case 1")]
         public static void ExportClientSimRandomNeuralCase1()
         {
             BeginExport(5, 1, "random-case-b");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Export ClientSim Random Neural Case 2")]
+[MenuItem("Tools/Pure Udon Go/Tests/Export ClientSim Random Neural Case 2")]
         public static void ExportClientSimRandomNeuralCase2()
         {
             BeginExport(6, 1, "random-case-c");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Export ClientSim Random Neural Case 3")]
+[MenuItem("Tools/Pure Udon Go/Tests/Export ClientSim Random Neural Case 3")]
         public static void ExportClientSimRandomNeuralCase3()
         {
             BeginExport(7, 1, "random-case-d");

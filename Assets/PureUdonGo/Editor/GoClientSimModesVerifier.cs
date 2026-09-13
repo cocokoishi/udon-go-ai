@@ -55,7 +55,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_MODES_REATTACHED step=" + step);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim Modes And Difficulty")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim Modes And Difficulty")]
         public static void VerifyClientSimModesAndDifficulty()
         {
             ResetRunner();

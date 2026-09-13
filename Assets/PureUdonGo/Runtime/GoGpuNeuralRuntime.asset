@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoGpuNeuralRuntime
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 708510224442b4946aa8e362b855d479, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 82951def1e269ad4da7c3e1452b30c80, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: f7c0d1229ae0e924ba4a530a9cee828f, type: 3}

@@ -74,7 +74,7 @@ namespace PureUdonGo
                 SessionState.GetInt("PureUdonGo.ClientSimUiVerifier.Step", 0));
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim UI And Hint")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim UI And Hint")]
         public static void VerifyClientSimUiAndHint()
         {
             ResetRunner();

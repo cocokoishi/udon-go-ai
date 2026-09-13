@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoHoverSweepProbe
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 7bdfa7566027aaa41a9057d45c73b761, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: af73a890e26207a4f89b0784eae525e1, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 2f5f8e1c4e894b0ca1d0d5b7d9e3f211, type: 3}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoUI
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 925e1329967817c4f8030641acf5c768, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: a92090eab247bf44ca9a009e0be34b95, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 07bafd608433b6f4892b0d05929848ed, type: 3}

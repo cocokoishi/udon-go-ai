@@ -60,45 +60,45 @@ namespace PureUdonGo
             EditorApplication.update += Pump;
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify Professional Endgame Consistency")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify Professional Endgame Consistency")]
         public static void VerifyProfessionalEndgameConsistency()
         {
             StartRun(0, GoProfessionalEndgameProbe.POSITION_COUNT, 0,
                 GoProfessionalEndgameProbe.BUDGET_COUNT);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify Professional Endgame Smoke (1x4)")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify Professional Endgame Smoke (1x4)")]
         public static void VerifyProfessionalEndgameSmoke()
         {
             StartRun(0, 1, 0, 1);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify Professional Endgame 8 Visits")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify Professional Endgame 8 Visits")]
         public static void VerifyProfessionalEndgame8Visits()
         {
             StartRun(0, GoProfessionalEndgameProbe.POSITION_COUNT, 0, 1);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify Professional Endgame 8 Visits (root trace)")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify Professional Endgame 8 Visits (root trace)")]
         public static void VerifyProfessionalEndgame8VisitsTrace()
         {
             captureReferenceTraceForRun = true;
             StartRun(0, GoProfessionalEndgameProbe.POSITION_COUNT, 0, 1);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify Professional Endgame 48 Visits")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify Professional Endgame 48 Visits")]
         public static void VerifyProfessionalEndgame48Visits()
         {
             StartRun(0, GoProfessionalEndgameProbe.POSITION_COUNT, 1, 2);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify Professional Endgame 48 Visits (root trace)")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify Professional Endgame 48 Visits (root trace)")]
         public static void VerifyProfessionalEndgame48VisitsTrace()
         {
             captureReferenceTraceForRun = true;
             StartRun(0, GoProfessionalEndgameProbe.POSITION_COUNT, 1, 2);
         }
-        [MenuItem("Tools/Pure Udon Go/Verify Udon Search Reference (8 visits)")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify Udon Search Reference (8 visits)")]
         public static void VerifyUdonSearchReference()
         {
             captureReferenceTraceForRun = true;

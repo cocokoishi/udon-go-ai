@@ -38,7 +38,7 @@ namespace PureUdonGo
             EditorApplication.update-=Pump;EditorApplication.update+=Pump;
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim A-H Performance Corpus")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim A-H Performance Corpus")]
         public static void VerifyPerformanceCorpus()
         {
             ResetRunner();

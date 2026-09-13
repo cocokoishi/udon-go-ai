@@ -58,7 +58,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_SEARCH_CALIBRATION_REATTACHED");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Export ClientSim Search Calibration")]
+[MenuItem("Tools/Pure Udon Go/Tests/Export ClientSim Search Calibration")]
         public static void ExportClientSimSearchCalibration()
         {
             StartExport(GoSearchCalibrationProbe.SCENARIO_COUNT,
@@ -66,14 +66,14 @@ namespace PureUdonGo
                 Editor.GoWorldGenerator.ScenePath);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Export ClientSim Search Calibration 8-20")]
+[MenuItem("Tools/Pure Udon Go/Tests/Export ClientSim Search Calibration 8-20")]
         public static void ExportClientSimSearchCalibration8And20()
         {
             StartExport(GoSearchCalibrationProbe.SCENARIO_COUNT, 0, 2,
                 Editor.GoWorldGenerator.ScenePath);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Export ClientSim Search Calibration 48-120")]
+[MenuItem("Tools/Pure Udon Go/Tests/Export ClientSim Search Calibration 48-120")]
         public static void ExportClientSimSearchCalibration48And120()
         {
             StartExport(GoSearchCalibrationProbe.SCENARIO_COUNT, 2,
@@ -81,7 +81,7 @@ namespace PureUdonGo
                 Editor.GoWorldGenerator.ScenePath);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Export ClientSim Search Calibration (minimal fixture)")]
+[MenuItem("Tools/Pure Udon Go/Tests/Export ClientSim Search Calibration (minimal fixture)")]
         public static void ExportClientSimSearchCalibrationMinimalFixture()
         {
             Editor.GoWorldGenerator.GenerateReaderRecoveryFixtureScene();

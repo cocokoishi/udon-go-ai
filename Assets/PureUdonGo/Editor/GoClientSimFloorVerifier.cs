@@ -45,7 +45,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_FLOOR_REATTACHED");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim Floor Gravity")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim Floor Gravity")]
         public static void VerifyClientSimFloorGravity()
         {
             ResetRunner();

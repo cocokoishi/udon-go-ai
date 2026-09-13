@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoLongHistoryStressProbe
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 8b420ff34ab39514c91e9edb89a473de, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 47845728bdd26b348a7e148b3bbdbf89, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: a6774b00a10947bf9fe4e4dc7bf71904, type: 3}

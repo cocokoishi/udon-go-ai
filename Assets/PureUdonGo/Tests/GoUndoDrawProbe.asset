@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoUndoDrawProbe
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: ff738f9eeaeca3d4999847466ed380c2, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 8a9e1c3cb71b7e04e9f8937636a75f90, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 593d89adc088d6542903563bde60ce90, type: 3}

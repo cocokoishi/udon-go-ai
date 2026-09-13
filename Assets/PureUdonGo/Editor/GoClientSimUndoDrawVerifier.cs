@@ -35,7 +35,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_UNDO_DRAW_REATTACHED");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim Undo Draw")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim Undo Draw")]
         public static void VerifyClientSimUndoDraw()
         {
             ResetRunner();

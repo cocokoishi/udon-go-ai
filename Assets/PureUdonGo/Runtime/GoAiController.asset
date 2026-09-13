@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoAiController
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 473abe836a05a8446935fd677ac514df, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: be2cb4720f4343940bb1d89f4aa010bc, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 2555f1e417e95e94e89cba93c9b9bd9c, type: 3}

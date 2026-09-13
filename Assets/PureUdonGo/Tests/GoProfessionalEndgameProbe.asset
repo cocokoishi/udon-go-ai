@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoProfessionalEndgameProbe
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 4d84ee5ede7b9da4eb80fe327a4e4f20, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 1715451dd9a11934aa47f402c2648efc, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 2f6e4edc7c4b4f5f9b2e1d6a2c8b07a1, type: 3}

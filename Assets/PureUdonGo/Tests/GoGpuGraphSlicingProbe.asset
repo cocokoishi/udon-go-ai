@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoGpuGraphSlicingProbe
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: b9f5bac5356c4bc48841253735930bba, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 4c531eb6220348543a2af942ef76e57b, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 7326e9c6a93e4293bb8ad79c079b8395, type: 3}

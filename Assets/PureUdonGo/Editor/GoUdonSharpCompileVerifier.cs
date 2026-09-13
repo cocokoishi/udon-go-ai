@@ -21,7 +21,7 @@ namespace PureUdonGo
         private const string TmpEssentialsPackagePath =
             "Assets/PureUdonGo/Editor/Resources/TMP Essential Resources.unitypackage";
 
-        [MenuItem("Tools/Pure Udon Go/Import TMP Essentials For Validation")]
+[MenuItem("Tools/Pure Udon Go/Tests/Import TMP Essentials For Validation")]
         public static void ImportTmpEssentialsForValidation()
         {
             if (Shader.Find("TextMeshPro/Mobile/Distance Field") != null)
@@ -55,7 +55,7 @@ namespace PureUdonGo
             EditorApplication.Exit(1);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify Real UdonSharp Compile")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify Real UdonSharp Compile")]
         public static void VerifyRealUdonSharpCompile()
         {
             UdonSharpCompilerV1.CompileSync(new UdonSharpCompileOptions
@@ -99,7 +99,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_UDONSHARP_COMPILE_PASS");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Generate And Verify Real Udon World")]
+[MenuItem("Tools/Pure Udon Go/Tests/Generate And Verify Real Udon World")]
         public static void GenerateAndVerifyRealUdonWorld()
         {
             PureUdonGo.Editor.GoWorldGenerator.GenerateFinalProductionScene();

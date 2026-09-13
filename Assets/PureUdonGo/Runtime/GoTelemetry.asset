@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoTelemetry
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 72dd32ace86e1a640a677ffd17b65922, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: bf7b68fd59d96f541a6e9328311cbc38, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: f1485997aab20d44cb056a297e3580f5, type: 3}

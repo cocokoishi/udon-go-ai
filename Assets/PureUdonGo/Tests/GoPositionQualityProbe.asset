@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoPositionQualityProbe
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 72054a846d168164eb0a2438874b5bc7, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: d6f1dbff31b8c874faac26cd21283db4, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 439608e05350460e95da5427bf3b1ad1, type: 3}

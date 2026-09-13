@@ -49,7 +49,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_READBACK_RECOVERY_REATTACHED stage="+stage);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim Readback Recovery Pool")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim Readback Recovery Pool")]
         public static void VerifyClientSimReadbackRecoveryPool()
         {
             ResetRunner();

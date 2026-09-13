@@ -51,7 +51,7 @@ namespace PureUdonGo.Editor
             return true;
         }
 
-        [MenuItem("Tools/Pure Udon Go/Repair Nested Checkout Assets", false, 1201)]
+[MenuItem("Tools/Pure Udon Go/Tests/Repair Nested Checkout Assets", false, 1201)]
         public static void RepairNestedCheckoutAssets()
         {
             int staged = EnsureProjectLevelArtifacts();

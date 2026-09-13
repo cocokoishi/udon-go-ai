@@ -42,7 +42,7 @@ namespace PureUdonGo
         private static readonly List<string> recorderNames =
             new List<string>(16);
 
-        [MenuItem("Tools/Pure Udon Go/Profile Scene-Only Idle Baseline")]
+[MenuItem("Tools/Pure Udon Go/Tests/Profile Scene-Only Idle Baseline")]
         public static void ProfileSceneOnlyIdleBaseline()
         {
             ResetRunner();

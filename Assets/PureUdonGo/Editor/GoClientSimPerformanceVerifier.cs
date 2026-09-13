@@ -68,31 +68,31 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_PERF_REATTACHED");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Profile ClientSim Search Stages")]
+[MenuItem("Tools/Pure Udon Go/Tests/Profile ClientSim Search Stages")]
         public static void ProfileClientSimSearchStages()
         {
             StartProfile(DiagnosticTargetVisits, -1);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Profile ClientSim Beginner 8 Visits")]
+[MenuItem("Tools/Pure Udon Go/Tests/Profile ClientSim Beginner 8 Visits")]
         public static void ProfileClientSimBeginner8()
         {
             StartProfile(GoDifficultyProfile.BEGINNER_VISITS, GoDifficultyProfile.BEGINNER);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Profile ClientSim Advanced 20 Visits")]
+[MenuItem("Tools/Pure Udon Go/Tests/Profile ClientSim Advanced 20 Visits")]
         public static void ProfileClientSimAdvanced20()
         {
             StartProfile(GoDifficultyProfile.ADVANCED_VISITS, GoDifficultyProfile.ADVANCED);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Profile ClientSim Master 48 Visits")]
+[MenuItem("Tools/Pure Udon Go/Tests/Profile ClientSim Master 48 Visits")]
         public static void ProfileClientSimMaster48()
         {
             StartProfile(GoDifficultyProfile.MASTER_VISITS, GoDifficultyProfile.MASTER);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Profile ClientSim Ultrahard 120 Visits")]
+[MenuItem("Tools/Pure Udon Go/Tests/Profile ClientSim Ultrahard 120 Visits")]
         public static void ProfileClientSimUltrahard120()
         {
             StartProfile(GoDifficultyProfile.ULTRAHARD_VISITS, GoDifficultyProfile.ULTRAHARD);

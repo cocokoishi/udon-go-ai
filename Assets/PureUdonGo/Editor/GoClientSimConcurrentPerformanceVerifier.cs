@@ -52,13 +52,13 @@ namespace PureUdonGo
             EditorApplication.update-=Pump;EditorApplication.update+=Pump;
         }
 
-        [MenuItem("Tools/Pure Udon Go/Profile ClientSim 2 Concurrent Tables")]
+[MenuItem("Tools/Pure Udon Go/Tests/Profile ClientSim 2 Concurrent Tables")]
         public static void ProfileTwoTables(){Begin(2);}
 
-        [MenuItem("Tools/Pure Udon Go/Profile ClientSim 1 Concurrent Table")]
+[MenuItem("Tools/Pure Udon Go/Tests/Profile ClientSim 1 Concurrent Table")]
         public static void ProfileOneTable(){Begin(1);}
 
-        [MenuItem("Tools/Pure Udon Go/Profile ClientSim 3 Concurrent Tables")]
+[MenuItem("Tools/Pure Udon Go/Tests/Profile ClientSim 3 Concurrent Tables")]
         public static void ProfileThreeTables(){Begin(3);}
 
         private static void Begin(int count)

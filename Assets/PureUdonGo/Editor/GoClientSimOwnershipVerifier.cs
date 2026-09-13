@@ -70,7 +70,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_OWNER_REATTACHED step=" + step);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim Ownership And Revision")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim Ownership And Revision")]
         public static void VerifyClientSimOwnershipAndRevision()
         {
             ResetRunner();

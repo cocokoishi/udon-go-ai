@@ -40,7 +40,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_SUPERKO_REATTACHED");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim Cooperative Superko")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim Cooperative Superko")]
         public static void VerifyClientSimCooperativeSuperko()
         {
             ResetRunner();

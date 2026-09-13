@@ -44,7 +44,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_RULES_REATTACHED");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim Go Rules")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim Go Rules")]
         public static void VerifyClientSimGoRules()
         {
             ResetRunner();

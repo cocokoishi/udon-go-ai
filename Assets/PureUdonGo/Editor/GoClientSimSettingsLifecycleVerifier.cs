@@ -54,7 +54,7 @@ namespace PureUdonGo
             EditorApplication.update+=Pump;
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify Settings Lifecycle And Follow Shared")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify Settings Lifecycle And Follow Shared")]
         public static void VerifySettingsLifecycle()
         {
             ResetRunner();

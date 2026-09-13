@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoSuperkoCooperativeProbe
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: b702377065370044daf0fef01eccf183, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: bd4777a1853992d468265970b81ae12e, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 6b3a36a20ffb4c6b93f8f70a4b10ce81, type: 3}

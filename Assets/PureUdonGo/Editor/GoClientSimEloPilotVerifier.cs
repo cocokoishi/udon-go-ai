@@ -50,19 +50,19 @@ namespace PureUdonGo
         private static Process kataGo;
         private static StreamWriter artifact;
 
-        [MenuItem("Tools/Pure Udon Go/Elo Pilot Udon 8 vs KataGo 20")]
+[MenuItem("Tools/Pure Udon Go/Tests/Elo Pilot Udon 8 vs KataGo 20")]
         public static void VerifyUdon8VsKataGo20()
         {
             StartPilot(8, 20, UdonSideWhite);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Elo Pilot Udon 20 vs KataGo 20")]
+[MenuItem("Tools/Pure Udon Go/Tests/Elo Pilot Udon 20 vs KataGo 20")]
         public static void VerifyUdon20VsKataGo20()
         {
             StartPilot(20, 20, UdonSideWhite);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Elo Pilot Udon 48 vs KataGo 20")]
+[MenuItem("Tools/Pure Udon Go/Tests/Elo Pilot Udon 48 vs KataGo 20")]
         public static void VerifyUdon48VsKataGo20()
         {
             StartPilot(48, 20, UdonSideWhite);

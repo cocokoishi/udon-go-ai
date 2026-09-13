@@ -44,7 +44,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_PUCT_SMOKE_REATTACHED");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim PUCT Search Smoke")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim PUCT Search Smoke")]
         public static void VerifyClientSimPositionQuality()
         {
             ResetRunner();

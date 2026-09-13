@@ -72,7 +72,7 @@ namespace PureUdonGo
                 " targetIndex=" + targetIndex);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim Difficulty Search Ladder")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim Difficulty Search Ladder")]
         public static void VerifyClientSimDifficultySearchLadder()
         {
             ResetRunner();

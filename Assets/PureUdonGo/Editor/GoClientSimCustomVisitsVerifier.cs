@@ -54,7 +54,7 @@ namespace PureUdonGo
             EditorApplication.update += Pump;
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify Custom Visits And Immediate AI Move")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify Custom Visits And Immediate AI Move")]
         public static void VerifyCustomVisitsAndImmediateMove()
         {
             ResetRunner();

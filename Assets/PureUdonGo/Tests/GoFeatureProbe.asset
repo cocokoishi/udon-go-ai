@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoFeatureProbe
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 21fdefefac6119840a3ca2e741df3de8, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 581468f57084582409e69ea1c81b0ca3, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: dbd15319dd214dea88d918675d6dad7b, type: 3}

@@ -26,7 +26,7 @@ namespace PureUdonGo.Editor
     /// </summary>
     public static class GoProductionValidator
     {
-        public const string MenuPath = "Tools/Pure Udon Go/Validate Production Scene";
+        public const string MenuPath = "Tools/Pure Udon Go/Tests/Validate Production Scene";
         public const string ValidationReportPath =
             "Assets/PureUdonGo/Generated/GoProductionValidationReport.txt";
 

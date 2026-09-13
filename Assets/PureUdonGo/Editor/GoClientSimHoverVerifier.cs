@@ -26,7 +26,7 @@ namespace PureUdonGo
         private static void ResumeAfterDomainReload()
         {if(!SessionState.GetBool(PendingKey,false))return;deadline=EditorApplication.timeSinceStartup+TimeoutSeconds;EditorApplication.playModeStateChanged+=OnPlayModeStateChanged;EditorApplication.update+=Pump;}
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim Hover And MoveMask Budget")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim Hover And MoveMask Budget")]
         public static void VerifyHover()
         {
             ResetRunner();Scene scene=EditorSceneManager.OpenScene(Editor.GoWorldGenerator.ScenePath,OpenSceneMode.Single);

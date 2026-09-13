@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoBoardInput
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: eab44dbb419f67c4fb5b6ab6d86ba62f, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 24f22b0c712f89f44b5f7275a43cf63f, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: d239f1e49c434acaa614e6950fa91cbe, type: 3}

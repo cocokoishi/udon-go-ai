@@ -53,7 +53,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_STALE_REATTACHED step=" + step);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim Stale Result Protection")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim Stale Result Protection")]
         public static void VerifyClientSimStaleResultProtection()
         {
             ResetRunner();

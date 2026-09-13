@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoCompleteGameProbe
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 0a6b4a7193d48f24b92d46fdb38b8ae1, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: cd6fadb3500fcf647b370420d87db2b1, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 5548acb7c0b84838b7b44d708a26c571, type: 3}

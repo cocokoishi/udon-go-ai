@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoGame
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 3fc1e51824e5c3c458ef8bf1903613d5, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 5bf9cbfbd4558bd488ec7c59d706494c, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: d7a6db168cca58640b991f465f6a658d, type: 3}

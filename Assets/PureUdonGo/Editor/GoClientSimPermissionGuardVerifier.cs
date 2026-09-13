@@ -47,7 +47,7 @@ namespace PureUdonGo
             EditorApplication.update += Pump;
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify Multiplayer Permission Guard")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify Multiplayer Permission Guard")]
         public static void VerifyMultiplayerPermissionGuard()
         {
             ResetRunner();

@@ -21,7 +21,7 @@ namespace PureUdonGo
         private const string FixtureFileName = "go-udon-feature-fixtures.json";
         private const string OutputFolderName = "NNCorpus";
 
-        [MenuItem("Tools/Pure Udon Go/Verify Fused Versus Reference GPU Graph")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify Fused Versus Reference GPU Graph")]
         public static void VerifyFusedAgainstReference()
         {
             GoGpuNeuralRuntime runtime=null;
@@ -101,7 +101,7 @@ namespace PureUdonGo
             return values;
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify GPU Shader Numerical Equivalence")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify GPU Shader Numerical Equivalence")]
         public static void VerifyGeneratedRuntime()
         {
             try

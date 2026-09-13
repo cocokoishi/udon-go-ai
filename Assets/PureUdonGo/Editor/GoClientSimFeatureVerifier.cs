@@ -49,7 +49,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_FEATURE_REATTACHED");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim Feature Equivalence")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim Feature Equivalence")]
         public static void VerifyClientSimFeatureEquivalence()
         {
             ResetRunner();

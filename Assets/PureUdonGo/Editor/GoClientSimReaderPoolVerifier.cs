@@ -52,7 +52,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_READER_POOL_REATTACHED step=" + step);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim Three-Reader Quarantine")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim Three-Reader Quarantine")]
         public static void VerifyClientSimThreeReaderQuarantine()
         {
             ResetRunner();

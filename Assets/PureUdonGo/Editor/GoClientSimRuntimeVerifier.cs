@@ -68,7 +68,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_REATTACHED");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim Runtime")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim Runtime")]
         public static void VerifyClientSimRuntime()
         {
             ResetRunner();
@@ -102,7 +102,7 @@ namespace PureUdonGo
             EditorApplication.isPlaying = true;
         }
 
-        [MenuItem("Tools/Pure Udon Go/Inspect VRC Async GPU API")]
+[MenuItem("Tools/Pure Udon Go/Tests/Inspect VRC Async GPU API")]
         public static void InspectVrcAsyncGpuApi()
         {
             Debug.Log("PURE_UDON_GO_VRC_ASYNC_API type=" +

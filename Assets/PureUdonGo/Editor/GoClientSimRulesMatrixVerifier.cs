@@ -43,7 +43,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_RULE_MATRIX_REATTACHED");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Export ClientSim Legal-Move Matrix")]
+[MenuItem("Tools/Pure Udon Go/Tests/Export ClientSim Legal-Move Matrix")]
         public static void ExportClientSimLegalMoveMatrix()
         {
             ResetRunner();

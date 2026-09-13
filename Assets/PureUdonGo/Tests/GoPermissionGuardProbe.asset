@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoPermissionGuardProbe
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: d57d2ca31f99d974baa5452b5fdf5b6c, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 811fc5b8bc2e6ba489e6767845e06ff5, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: a53a7f9583a44a82a87aaaab7c313979, type: 3}

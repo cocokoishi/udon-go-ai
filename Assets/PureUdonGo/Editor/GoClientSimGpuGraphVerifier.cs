@@ -32,7 +32,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_GPU_GRAPH_REATTACHED");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim GPU Graph Slicing")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim GPU Graph Slicing")]
         public static void VerifyClientSimGpuGraphSlicing()
         {
             ResetRunner();

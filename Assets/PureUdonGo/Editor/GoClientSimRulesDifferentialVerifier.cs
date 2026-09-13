@@ -43,7 +43,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_RULE_TRACE_REATTACHED");
         }
 
-        [MenuItem("Tools/Pure Udon Go/Export ClientSim Rules Trace")]
+[MenuItem("Tools/Pure Udon Go/Tests/Export ClientSim Rules Trace")]
         public static void ExportClientSimRulesTrace()
         {
             ResetRunner();

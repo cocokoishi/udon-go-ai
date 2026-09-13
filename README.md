@@ -21,6 +21,8 @@ License: **GNU Affero General Public License v3.0 only** (`AGPL-3.0-only`). Copy
 
 5. Open the generated scene, add it to the host project's build scenes, and test/build it through the normal VRChat SDK workflow.
 
+The `Pure Udon Go` menu is intentionally compact: `Generate Final Production Scene` remains at the top level, while all Unity editor tests and diagnostics are grouped under `Tools > Pure Udon Go > Tests`.
+
 The generator creates:
 
 ```text
@@ -85,7 +87,7 @@ GoMctsSearch  GoFeatureEncoder  GoGpuNeuralRuntime
 | Path                                 | Description                                                                       |
 | ------------------------------------ | --------------------------------------------------------------------------------- |
 | `Assets/PureUdonGo/Runtime/`         | Runtime UdonSharp behaviours and serialized program assets                        |
-| `Assets/PureUdonGo/Editor/`          | World generator, validator, model importer, compile gate, and ClientSim verifiers |
+| `Assets/PureUdonGo/Editor/`          | World generator, menu entry points, validator, model importer, compile gate, and ClientSim verifiers |
 | `Assets/PureUdonGo/Shaders/`         | `PureUdonGo/NNLayer` neural-network shader                                        |
 | `Assets/PureUdonGo/Model/Generated/` | Serialized runtime weights, audit data, and model manifests                       |
 | `Assets/PureUdonGo/Fonts/`           | UI font and its license notice                                                    |
@@ -161,7 +163,7 @@ python -m unittest discover -s Tools/KaTrain/tests -v
 python Tools/RepositoryBoundary/check_repository_boundary.py
 ```
 
-The Unity editor menus include gates for:
+Unity editor verification and diagnostics are available from `Tools > Pure Udon Go > Tests`. The top-level `Tools > Pure Udon Go` menu contains only `Generate Final Production Scene` and the `Tests` submenu. The tests submenu includes gates for:
 
 * rules, legal-move matrices, derived history, and superko;
 * V7 feature and neural/GPU numerical equivalence;

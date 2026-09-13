@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoGeneratedWorld
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 75aa51c8984965642981838a38ce0b6a, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 734e66dc0f1607a41af027b64b822cea, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 2dff4d1e69428994c99f5dcb3a51a6a7, type: 3}

@@ -37,25 +37,25 @@ namespace PureUdonGo
             EditorApplication.update-=Pump;EditorApplication.update+=Pump;
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim Long History Stress")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim Long History Stress")]
         public static void VerifyClientSimLongHistoryStress()
         {
             StartStress(0,GoLongHistoryStressProbe.CASE_COUNT);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Profile ClientSim Long History Case 64")]
+[MenuItem("Tools/Pure Udon Go/Tests/Profile ClientSim Long History Case 64")]
         public static void ProfileClientSimLongHistoryCase64()
         {
             StartStress(2,3);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Profile ClientSim Long History Case 520")]
+[MenuItem("Tools/Pure Udon Go/Tests/Profile ClientSim Long History Case 520")]
         public static void ProfileClientSimLongHistoryCase520()
         {
             StartStress(5,6);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Export ClientSim Long History Case 520 Build")]
+[MenuItem("Tools/Pure Udon Go/Tests/Export ClientSim Long History Case 520 Build")]
         public static void ExportClientSimLongHistoryCase520Build()
         {
             StartStress(5,6,true);

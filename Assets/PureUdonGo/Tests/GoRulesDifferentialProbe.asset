@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: GoRulesDifferentialProbe
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: c55d64eee861bce4497001f1df04f85a, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 8264cc78fe3f1854da8675faa3c5af03, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 1e6d8c4a5b2f4937a0d1e8c6f9b4a257, type: 3}

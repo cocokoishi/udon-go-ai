@@ -45,7 +45,7 @@ namespace PureUdonGo
             Debug.Log("PURE_UDON_GO_CLIENTSIM_RECOVERY_REATTACHED step="+step);
         }
 
-        [MenuItem("Tools/Pure Udon Go/Verify ClientSim Reconnect Recovery")]
+[MenuItem("Tools/Pure Udon Go/Tests/Verify ClientSim Reconnect Recovery")]
         public static void VerifyClientSimReconnectRecovery()
         {
             ResetRunner();
