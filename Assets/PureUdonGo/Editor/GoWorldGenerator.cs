@@ -1234,8 +1234,8 @@ namespace PureUdonGo.Editor
 
             Image intro = CreateImage(screen.transform, "Project Introduction", new Rect(28f, 42f, 584f, 204f), surface);
             CreateLocalizedText(intro.transform, "Introduction",
-                "你好，我是椰子梨梨花。Udon Go AI是一个基于Udon的VRChat围棋AI引擎。由于Udon性能有限（在我的测试中，其性能与Intel于1989年发布的80486 CPU处于同一数量级），我们设计了高度定制的Udon-Shader协处理架构：Udon负责游戏逻辑、状态管理与搜索控制，并通过纹理读写与Shader交换数据，将主要计算offload到GPU。通过这一方式，我们成功将KataGo移植进VRChat，实现了可实际游玩的高性能本地围棋AI。",
-                "Hi, I'm 椰子梨梨花. Udon Go AI is a VRChat Go engine built with Udon and shaders. Udon handles rules, state and search control while the GPU accelerates neural inference. KataGo-compatible features make it a playable local Go AI in VRChat.",
+                "Udon Go AI 是一个面向VRChat的开源项目。我们在Udon中实现了KataGo，并移植了kata1-b10c128-s1141046784-d204142634模型，使围棋AI能够直接在VRChat世界中本地运行。项目地址：https://github.com/cocokoishi/udon-go-ai by 椰子梨梨花，项目遵循 AGPL-3.0 协议。",
+                "Udon Go AI is an open-source project for VRChat. We implemented KataGo in Udon and ported the kata1-b10c128-s1141046784-d204142634 model, enabling the Go AI to run locally inside VRChat worlds. Project: https://github.com/cocokoishi/udon-go-ai by 椰子梨梨花. Licensed under AGPL-3.0.",
                 font, 17f, FontStyles.Normal, TextAlignmentOptions.TopLeft,
                 new Rect(18f, 18f, 548f, 168f), TextPrimary);
 
