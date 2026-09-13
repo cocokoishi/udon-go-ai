@@ -1,12 +1,12 @@
-# PureUdonGo
+# Udon Go AI
 
 <a href="https://vrchat.com/home/world/wrld_52b8fc72-0ad9-4c27-ac77-5b15137d0afd"> <img width="1920" height="1080" alt="VRChat_2026-09-13_14-16-07 646_1920x1080" src="https://github.com/user-attachments/assets/b7996877-8231-456f-a81e-6eeede29f9e9" /> </a>
 
 ## [▶ **PLAY UDON GO AI NOW IN VRCHAT**](https://vrchat.com/home/world/wrld_52b8fc72-0ad9-4c27-ac77-5b15137d0afd)
 
-PureUdonGo is an open-source 19×19 Go world for VRChat, built with Unity, UdonSharp, and the VRChat Worlds SDK. It combines exact Go rules, KataGo-style `INPUTSVERSION 7` features, GPU-shader neural inference, and cooperative PUCT/MCTS search in a world that runs without Python, KataGo, or a web service at runtime.
+Udon Go AI is an open-source 19×19 Go world for VRChat, built with Unity, UdonSharp, and the VRChat Worlds SDK. It combines exact Go rules, KataGo-style `INPUTSVERSION 7` features, GPU-shader neural inference, and cooperative PUCT/MCTS search in a world that runs without Python, KataGo, or a web service at runtime.
 
-License: **GNU Affero General Public License v3.0 only** (`AGPL-3.0-only`). Copyright © 2026 cocokoishi for original PureUdonGo material. See [`LICENSE`](LICENSE) and [`Docs/THIRD_PARTY_NOTICES.md`](Docs/THIRD_PARTY_NOTICES.md).
+License: **GNU Affero General Public License v3.0 only** (`AGPL-3.0-only`). Copyright © 2026 cocokoishi for original Udon Go AI material. See [`LICENSE`](LICENSE) and [`Docs/THIRD_PARTY_NOTICES.md`](Docs/THIRD_PARTY_NOTICES.md).
 
 > This repository is a Unity package/source distribution, not a complete Unity project. A compatible VRChat Worlds project is required; the repository does not include `ProjectSettings/`, `Packages/`, or a checked-in production scene.
 
@@ -179,7 +179,7 @@ See [`Docs/VERIFICATION.md`](Docs/VERIFICATION.md) for the current gate matrix a
 
 ## Third-party notices
 
-The root `LICENSE` applies to original PureUdonGo material that the copyright holder is authorized to license. It does not relicense third-party material.
+The root `LICENSE` applies to original Udon Go AI material that the copyright holder is authorized to license. It does not relicense third-party material.
 
 * KataGo source code is licensed under the **MIT License**. See [`Docs/THIRD_PARTY_NOTICES.md`](Docs/THIRD_PARTY_NOTICES.md) for attribution and licensing information.
 * The production neural model, its baked weights, and benchmark data may have separate redistribution terms. Confirm those terms before publishing them.
@@ -190,14 +190,15 @@ Full provenance is maintained in [`Docs/THIRD_PARTY_NOTICES.md`](Docs/THIRD_PART
 
 ## Prefab Usage
 
-When the PureUdonGo AI Go-table Prefab is used unmodified in a VRChat world, it is sufficient to retain the built-in author and project attribution shown in the lower-left corner of the Prefab. The entire world does not need to be open-sourced solely because it includes this Prefab.
+When the Udon Go AI Go-table Prefab is used **intact and unmodified** in a VRChat world, it is sufficient to retain the built-in author and project attribution shown in the lower-left corner of the Prefab. No additional attribution is required, and the rest of the VRChat world does not need to be open-sourced solely because it includes this Prefab.
 
-If the Prefab, its code, shaders, or runtime logic are modified, this additional permission no longer applies, and the relevant modifications must comply with the full terms of AGPL-3.0-only.
+If the Prefab or any of its code, shaders, assets, or runtime logic is modified, this exception no longer applies, and the resulting use must comply with the normal terms of AGPL-3.0-only.
 
-This permission applies only to original PureUdonGo material that cocokoishi is authorized to license.
+This exception applies only to original Udon Go AI material that cocokoishi is authorized to license.
+
 
 ## License
 
-Original PureUdonGo material that the copyright holder is authorized to license is licensed under the **GNU Affero General Public License v3.0 only**.
+Original Udon Go AI material that the copyright holder is authorized to license is licensed under the **GNU Affero General Public License v3.0 only**.
 
 See [`LICENSE`](LICENSE) for the complete license text. Third-party components and data—including model weights, fonts, SDKs, Unity packages, and benchmark corpora—are excluded from this blanket licensing statement and remain under their own terms.
