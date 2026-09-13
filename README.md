@@ -1,5 +1,8 @@
 # PureUdonGo
+
 <img width="1920" height="1080" alt="VRChat_2026-09-13_14-16-07 646_1920x1080" src="https://github.com/user-attachments/assets/b7996877-8231-456f-a81e-6eeede29f9e9" />
+[![Play Now](https://img.shields.io/badge/▶_PLAY_NOW-VRChat-2ea44f?style=for-the-badge&logo=vrchat&logoColor=white)](https://vrchat.com/home/world/wrld_52b8fc72-0ad9-4c27-ac77-5b15137d0afd)
+
 PureUdonGo is an open-source 19×19 Go world for VRChat, built with Unity,
 UdonSharp, and the VRChat Worlds SDK. It combines exact Go rules, KataGo-style
 `INPUTSVERSION 7` features, GPU-shader neural inference, and cooperative
